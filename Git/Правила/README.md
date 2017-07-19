@@ -24,7 +24,8 @@ apt-get install git
 $ git init --separate-git-dir /var/www/site/data/www/site.ru.git
 ```
 или для старой версии 
-```sh git --git-dir=/var/www/site.ru.git --work-tree=/var/www/site.ru ini
+```sh 
+git --git-dir=/var/www/site.ru.git --work-tree=/var/www/site.ru ini
 echo "gitdir: /var/www/site.ru.git" > .git
 ```
 

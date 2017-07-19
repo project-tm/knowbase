@@ -19,7 +19,9 @@
 	- [Writing on GitHub](https://help.github.com/articles/writing-on-github/)
 
 ## Git
-- [Инструкция по работе с Git](git/Инструкция/README.md)
+- [Правила работы с Git](Git/Правила работы с Git/README.md)
+- [Работа на проде](Git/Работа на проде/README.md)
+- [Инструкция по работе с Git](Git/Инструкция/README.md)
 - [Scott Chacon - Pro Git (ru)](http://git-scm.com/book/ru) - бесплатная книга про Git
 - [Пропробуй Git](https://try.github.io) - интерактивный курс от [codeschool.com](http://codeschool.com) для [github.com](http://github.com)
 

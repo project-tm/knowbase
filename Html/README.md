@@ -2,7 +2,7 @@
 ==========================================
 
 # Сервисы
-- Генератор фавиконок для всех платформ и устройств - (http://realfavicongenerator.net/)
+- Генератор фавиконок для всех платформ и устройств - http://realfavicongenerator.net/
 - Сервис по тестированию регулярных выражений - https://regex101.com/
 - Оптимизация изображений - https://tinypng.com/
 
@@ -11,7 +11,7 @@
 - фикс поведения vw и vh в разных браузерах - https://github.com/rodneyrehm/viewport-units-buggyfill
 - picture, srcset - https://github.com/scottjehl/picturefill
 - позволяет использовать в старых браузерах svg symbols, сохраненные в отдельном файле https://github.com/jonathantneal/svg4everybody
-- полифилл для элемента <details> https://github.com/mathiasbynens/jquery-details
+- полифилл для элемента https://github.com/mathiasbynens/jquery-details
 - Promise https://github.com/stefanpenner/es6-promise
 
 # Плагины

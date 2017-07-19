@@ -31,9 +31,9 @@ echo "gitdir: /var/www/site.ru.git" > .git
 
 настраиваем:
 ```sh 
-$ git config color.ui true
-$ git config core.filemode false
-$ git config core.autocrlf input
+git config color.ui true
+git config core.filemode false
+git config core.autocrlf input
 ```
 
 # Начало работы
@@ -50,8 +50,8 @@ cat ~/.ssh/id_rsa.pub
 # Идентификация пользователей
 Часто важно понимать, какой разработчик какой функционал делал. Чтобы это было видно в истории, необходимо ввести информацию о пользователе. Для этого есть команды:
 ```sh
-$ git config --global user.name site
-$ git config --global user.email site
+git config --global user.name site
+git config --global user.email site
 ```
 опция global устанавливает данные пользователя глобально для всех возможных проектов. Если её не указывать, то данные будут установлены только для текущего репозитория git.
 

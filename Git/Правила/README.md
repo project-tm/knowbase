@@ -21,7 +21,7 @@ apt-get install git
 # Настройки сервера
 Всегда ставим git в папку выше директории сайта:
 ```sh 
-$ git init --separate-git-dir /var/www/site/data/www/site.ru.git
+git init --separate-git-dir /var/www/site/data/www/site.ru.git
 ```
 или для старой версии 
 ```sh 

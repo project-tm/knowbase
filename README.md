@@ -29,8 +29,10 @@
 - [Регулярные выражения](media/regexp.pdf)
 
 ## 1С-Битрикс
+
 	### Обязательно к установке
 	- [Агенты на кроне](https://marketplace.1c-bitrix.ru/solutions/askaron.agents/)
+	
 	### Полезное
 	- [Пользовательские константы](http://marketplace.1c-bitrix.ru/solutions/ceteralabs.uservars/)
 	- [Миграции](http://marketplace.1c-bitrix.ru/solutions/sprint.migration/)
@@ -38,6 +40,7 @@
 	- [Авторизация по sms](https://marketplace.1c-bitrix.ru/solutions/rarus.sms4bauth/)
 	- [Набор инструментов поддержки проектов (Конвертация строковых свойств в списочные или привязка по элементам без потери информации)](https://github.com/worksolutions/bitrix-module-tools/)
 	- [PHP sdk для Bitrix24](https://github.com/mesilov/bitrix24-php-sdk)
+	
 	### Свойства инфоблоков
 	- [Группировка свойств](http://marketplace.1c-bitrix.ru/solutions/redsign.grupper)
 	- [Дополнительные свойства инфоблоков](https://marketplace.1c-bitrix.ru/solutions/askaron.prop/ )
@@ -61,7 +64,6 @@
 	- [СМС для интернет-магазина и бонусы для клиентов](http://marketplace.1c-bitrix.ru/solutions/intis.senduserssms/)
 	- [Уведомление о заказе в Telegram](http://marketplace.1c-bitrix.ru/solutions/justdevelop.morder/)
 	- [Статус заказа во ВКонтакте](http://marketplace.1c-bitrix.ru/solutions/happysanta.orderstatus/)
-
 
 ## Linux
 - [Advanced Bash-Scripting Guide](http://www.opennet.ru/docs/RUS/bash_scripting_guide/) - подробный мануал по использованию командной строки linux, а так же написание собственных сценариев

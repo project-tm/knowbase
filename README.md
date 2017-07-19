@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+База знаний
+===========
 
-You can use the [editor on GitHub](https://github.com/DevTeamM/knowbase/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+- [Работа с базой знаний](#user-content-Работа-с-базой-знаний)
+	- [Форматирование текста](#user-content-Форматирование-текста)
+- [Git](#git)
+- [JavaScript](#javascript)
+- [1С-Битрикс](#user-content-1С-Битрикс)
+- [Linux](#linux)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Работа с базой знаний
 
-### Markdown
+- [Инструкция](CONTRIBUTING.md)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	### Форматирование текста
+	- [Markdown (википедия)](https://ru.wikipedia.org/wiki/Markdown)
+	- [Markdown Basics](https://help.github.com/articles/markdown-basics/)
+	- [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
+	- [Writing on GitHub](https://help.github.com/articles/writing-on-github/)
 
-```markdown
-Syntax highlighted code block
+## Git
+- [Инструкция по работе с Git](articles/Git/Инструкция/README.md)
+- [Scott Chacon - Pro Git (ru)](http://git-scm.com/book/ru) - бесплатная книга про Git
+- [Пропробуй Git](https://try.github.io) - интерактивный курс от [codeschool.com](http://codeschool.com) для [github.com](http://github.com)
 
-# Header 1
-## Header 2
-### Header 3
+## JavaScript
 
-- Bulleted
-- List
+## Программирование
+- [Регулярные выражения](media/regexp.pdf)
 
-1. Numbered
-2. List
+## 1С-Битрикс
+- [Модуль миграций](https://github.com/worksolutions/bitrix-module-migrations/blob/master/README.md)
+- [WS Tools](https://github.com/worksolutions/bitrix-module-tools/) - набор инструментов поддержки проектов
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DevTeamM/knowbase/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Linux
+- [Advanced Bash-Scripting Guide](http://www.opennet.ru/docs/RUS/bash_scripting_guide/) - подробный мануал по использованию командной строки linux, а так же написание собственных сценариев
+- [Командная строка Linux](articles/Linux/Shell/README.md)

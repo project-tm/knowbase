@@ -23,6 +23,11 @@ apt-get install git
 ```sh 
 $ git init --separate-git-dir /var/www/site/data/www/site.ru.git
 ```
+или для старой версии 
+```sh git --git-dir=/var/www/site.ru.git --work-tree=/var/www/site.ru ini
+echo "gitdir: /var/www/site.ru.git" > .git
+```
+
 настраиваем:
 ```sh 
 $ git config color.ui true
@@ -33,7 +38,8 @@ $ git config core.autocrlf input
 # Начало работы
 Перед тем, как начать работу с git на нашей площадке, необходимо сгенерировать себе приватный и публичный ключи. Для этого подключаемся к нашему серверу и выполняем команду:
 ```sh
-ssh-keygen -t rsa -b 4096 -C «your_email@example.com»
+ssh-keygen -t rsa -b 4096 -C «site»
+cat ~/.ssh/id_rsa.pub
 ```
 Вместо пароля можно оставить пустую строку, просто нажав Enter, чтобы не вводить его постоянно. В домашнем каталоге должны появиться файлы ```sh~/.id_rsa``` и ```sh~/.id_rsa.pub```. Нужно скопировать целиком содержимое последнего (это просто текст, бех каких-либо пробелов и переновос) и вставиь в web-интерфейс git, с которым вам предстоит работать,к примеру, в наш GitLab по адресу https://gitlab.com/profile/keys
 У клиента могут быть свои гит-репозитории на основе того же gitlab, bitbucket, github - в этих случаях необходимо перенести ssh-ключ туда.
@@ -43,8 +49,8 @@ ssh-keygen -t rsa -b 4096 -C «your_email@example.com»
 # Идентификация пользователей
 Часто важно понимать, какой разработчик какой функционал делал. Чтобы это было видно в истории, необходимо ввести информацию о пользователе. Для этого есть команды:
 ```sh
-$ git config --global user.name "John Doe"
-$ git config --global user.email johndoe@example.com
+$ git config --global user.name site
+$ git config --global user.email site
 ```
 опция global устанавливает данные пользователя глобально для всех возможных проектов. Если её не указывать, то данные будут установлены только для текущего репозитория git.
 

@@ -30,6 +30,8 @@
 
 ## 1С-Битрикс
 
+### Форматирование текста
+- [Markdown (википедия)](https://ru.wikipedia.org/wiki/Markdown)
 	### Обязательно к установке
 	- [Агенты на кроне](https://marketplace.1c-bitrix.ru/solutions/askaron.agents/)
 	

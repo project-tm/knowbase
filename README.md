@@ -7,6 +7,7 @@
 - [JavaScript](#javascript)
 - [1С-Битрикс](#user-content-1С-Битрикс)
 - [Linux](#linux)
+- [Верстка](#Верстка)
 
 ## Работа с базой знаний
 
@@ -31,8 +32,11 @@
 - [Регулярные выражения](Regexp/readme.pdf)
 
 ## 1С-Битрикс
-- [Создание модулей](bitrix/modules.md)
-- [Готовые модули 1С-Битрикс](Bitrix/marketplace.md)
+- [Создание модулей](Bitrix/Modules/README.md)
+- [Готовые модули 1С-Битрикс](Bitrix/Marketplace/README.md)
+
+## Верстка
+- [Используемые плагины, библиотеки и сервисы](Html/README.md)
 
 ## Linux
 - [Advanced Bash-Scripting Guide](http://www.opennet.ru/docs/RUS/bash_scripting_guide/) - подробный мануал по использованию командной строки linux, а так же написание собственных сценариев

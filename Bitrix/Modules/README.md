@@ -28,10 +28,10 @@
 - ajax для каталогов
 - ajax для списков
 
-- https://bitbucket.org/project-tm/project.search - модуль кастомизации поискового индекса
-- https://bitbucket.org/project-tm/projetc.sync - модуль синхронизации справочника и списка
-- https://bitbucket.org/project-tm/project.discount - модуль скидок
-- https://bitbucket.org/project-tm/commercial.offers - Коммерческие предложения с генерацией pdf файлов
+### модуль кастомизации поискового индекса - https://bitbucket.org/project-tm/project.search
+### модуль синхронизации справочника и списка - https://bitbucket.org/project-tm/projetc.sync
+### модуль скидок - https://bitbucket.org/project-tm/project.discount
+### Коммерческие предложения с генерацией pdf файлов - https://bitbucket.org/project-tm/commercial.offers
 
 ### Шаблон для магазина - https://bitbucket.org/project-tm/templates.catalog.sky
 - выбор товарных предложений через select

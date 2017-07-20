@@ -4,8 +4,10 @@
 - [Работа с базой знаний](#user-content-Работа-с-базой-знаний)
 	- [Форматирование текста](#user-content-Форматирование-текста)
 - [Git](#git)
+- [1С-Битрикс](#1С-Битрикс)
+- [Верстка](#Верстка)
 - [JavaScript](#javascript)
-- [1С-Битрикс](#user-content-1С-Битрикс)
+- [Программирование](#Программирование)
 - [Linux](#linux)
 - [Верстка](#Верстка)
 
@@ -26,13 +28,6 @@
 - [Scott Chacon - Pro Git (ru)](http://git-scm.com/book/ru) - бесплатная книга про Git
 - [Пропробуй Git](https://try.github.io) - интерактивный курс от [codeschool.com](http://codeschool.com) для [github.com](http://github.com)
 
-## JavaScript
-- [Уроки JavaScript в android](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial)
-- [Современный учебник Javascript](https://learn.javascript.ru/)
-
-## Программирование
-- [Регулярные выражения](Regexp/readme.pdf)
-
 ## 1С-Битрикс
 - [Создание модулей](Bitrix/Modules/README.md)
 - [Готовые модули 1С-Битрикс](Bitrix/Marketplace/README.md)
@@ -43,6 +38,13 @@
 - [Интеграция в проект](Html/Интеграция/README.md)
 - [Учитываем при оценке проектов](Html/Оценка/README.md)
 - [Тестирование](Html/Тестирование/README.md)
+
+## JavaScript
+- [Уроки JavaScript в android](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial)
+- [Современный учебник Javascript](https://learn.javascript.ru/)
+
+## Программирование
+- [Регулярные выражения](Regexp/readme.pdf)
 
 ## Linux
 - [Командная строка](Linux/Shell/README.md)

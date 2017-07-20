@@ -17,7 +17,6 @@
 - [Инструкция](CONTRIBUTING.md)
 
 	### Форматирование текста
-	- [Онлайн редактор](http://dillinger.io/)
 	- [Markdown (википедия)](https://ru.wikipedia.org/wiki/Markdown)
 	- [Markdown Basics](https://help.github.com/articles/markdown-basics/)
 	- [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)

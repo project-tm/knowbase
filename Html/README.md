@@ -14,7 +14,7 @@
 - Promise https://github.com/stefanpenner/es6-promise
 
 # Плагины
-- сообщение для старых бросеров - <a target='_blank' href="https://tech.yandex.ru/browser/constructor/">от Яндекса</a>
+- <a target='_blank' href="https://tech.yandex.ru/browser/constructor/">сообщение для старых браузеров</a> - от Яндекса
 - слайдер - slick-carousel (jquery) swiper (vanilla)
 - попапы - fancybox3
 - селекты - select2

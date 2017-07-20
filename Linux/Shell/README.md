@@ -1,6 +1,11 @@
 Командная строка Linux
 ======================
 
+### Полезные запросы
+- `grep -r -n --exclude-dir={upload,xhprof,managed_cache,cache,test,webstat,backup,images,import,old} '' ./` - поиск
+- `df -h` - место на диске
+- `du -sh */` - место в папках
+
 ### Список повседневных команд:
 
 - [`ls`](http://www.opennet.ru/man.shtml?topic=ls&category=1) - выводит содержимое каталога

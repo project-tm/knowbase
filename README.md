@@ -27,6 +27,8 @@
 - [Пропробуй Git](https://try.github.io) - интерактивный курс от [codeschool.com](http://codeschool.com) для [github.com](http://github.com)
 
 ## JavaScript
+- [Уроки JavaScript в android](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial)
+- [Современный учебник Javascript](https://learn.javascript.ru/)
 
 ## Программирование
 - [Регулярные выражения](Regexp/readme.pdf)

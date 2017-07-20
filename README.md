@@ -41,6 +41,8 @@
 - [Используемые плагины, библиотеки и сервисы](Html/README.md)
 - [Установка сборщика верстки](Html/Build/README.md)
 - [Интеграция в проект](Html/Интеграция/README.md)
+- [Учитываем при оценке проектов](Html/Оценка/README.md)
+- [Тестирование](Html/Тестирование/README.md)
 
 ## Linux
 - [Advanced Bash-Scripting Guide](http://www.opennet.ru/docs/RUS/bash_scripting_guide/) - подробный мануал по использованию командной строки linux, а так же написание собственных сценариев

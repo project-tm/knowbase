@@ -21,4 +21,5 @@
 =======================
 
 - [Тестирование разрешений](https://github.com/nghuuphuoc/responsivetest)
+
 ![Deploy scheme](responsivetest.gif)

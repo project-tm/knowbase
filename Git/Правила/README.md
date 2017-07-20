@@ -8,8 +8,15 @@
 
 # Ставим git
 Centos 6-7
+
+Centos 7
 ```sh 
 rpm -Uvh http://opensource.wandisco.com/centos/7/git/x86_64/wandisco-git-release-7-1.noarch.rpm
+yum install git
+```
+
+Centos 6 
+```sh 
 rpm -Uvh http://opensource.wandisco.com/centos/6/git/x86_64/wandisco-git-release-6-1.src.rpm
 yum install git
 ```

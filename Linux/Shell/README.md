@@ -13,7 +13,7 @@
 - [`cd`](http://www.opennet.ru/man.shtml?topic=cd&category=1) - смена текущего каталога
 - [`grep`](http://www.opennet.ru/man.shtml?topic=grep&category=1) - поиск строки в тексте по шаблону (подстроке)
 - [`cat`](http://www.opennet.ru/man.shtml?topic=cat&category=1) - вывод содержимого файла (файлов)
-- [`mv`](http://www.opennet.ru/man.shtml?topic=mv&category=1) - перемещение файлов и каталогов
+- [`mv`](http://www.opennet.ru/man.shtml?topic=mv&category=1) - перемещение файлов и каталогов
 - [`cp`](http://www.opennet.ru/man.shtml?topic=cp&category=1) - копирование файлов и каталогов
 - [`rm`](http://www.opennet.ru/man.shtml?topic=rm&category=1) - удаление файлов и каталогов
 - [`mkdir`](http://www.opennet.ru/man.shtml?topic=mkdir&category=1) - создание каталогов

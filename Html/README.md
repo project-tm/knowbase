@@ -1,6 +1,5 @@
 Используемые плагины, библиотеки и сервисы
 ==========================================
-
 # Сервисы
 - Генератор фавиконок для всех платформ и устройств - http://realfavicongenerator.net/
 - Сервис по тестированию регулярных выражений - https://regex101.com/
@@ -15,7 +14,7 @@
 - Promise https://github.com/stefanpenner/es6-promise
 
 # Плагины
-- сообщение для старых бросеров - <a href="https://tech.yandex.ru/browser/constructor/" target="_blanck">от Яндекса</a>
+- сообщение для старых бросеров - от Яндекса
 - слайдер - slick-carousel (jquery) swiper (vanilla)
 - попапы - fancybox3
 - селекты - select2

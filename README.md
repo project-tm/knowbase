@@ -45,5 +45,5 @@
 - [Тестирование](Html/Тестирование/README.md)
 
 ## Linux
-- [Команды](Linux/Shell/README.md)
+- [Командная строка](Linux/Shell/README.md)
 - [Advanced Bash-Scripting Guide](http://www.opennet.ru/docs/RUS/bash_scripting_guide/) - подробный мануал по использованию командной строки linux, а так же написание собственных сценариев

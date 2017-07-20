@@ -5,35 +5,35 @@
 - [Генератор админок](https://github.com/DigitalWand/digitalwand.admin_helper)
 - [Рабочий пример](https://github.com/niksamokhvalov/demo.adminhelper)
 
-### Api для сайта, ***ставим обязательно**** - https://bitbucket.org/project-tm/project.core
+### [Api для сайта, ***ставим обязательно****](https://bitbucket.org/project-tm/project.core)
 - отладка
 - кеширование данных
 - ресайсинг и ватермарки
 - определениме города
 
-### Импорт товаров - https://bitbucket.org/project-tm/project.import
+### [Импорт товаров](https://bitbucket.org/project-tm/project.import)
 - импорт инфоблоков, справочников, каталога, цен, фото, автозагрузка фото для контента
 - иммпорт из csv, yandex.xml
 - импорт товаров из storeland.ru (имитация авторизации админа в системе)
 - импорт из друпала (нодов, таксономии, полей, цен, пользователей с переносом паролей, заказов)
 
-### поддержка - https://bitbucket.org/project-tm/project.support
+### [Модуль поддержки](https://bitbucket.org/project-tm/project.support)
 - обмен сообщениями между пользователем и службой поддержки (2 форума)
 - обмен сообщением между пользователем и продавцов (для каждого лота свой чат)
 
-### модуль для портала - https://bitbucket.org/project-tm/project.game
+### [Модуль для портала](https://bitbucket.org/project-tm/project.game)
 - ajax компаненты
 - ajax для избранных в лк
 - ajax для авторизации, регистрации
 - ajax для каталогов
 - ajax для списков
 
-### модуль кастомизации поискового индекса - https://bitbucket.org/project-tm/project.search
-### модуль синхронизации справочника и списка - https://bitbucket.org/project-tm/projetc.sync
-### модуль скидок - https://bitbucket.org/project-tm/project.discount
-### Коммерческие предложения с генерацией pdf файлов - https://bitbucket.org/project-tm/commercial.offers
+### [Модуль кастомизации поискового индекса](https://bitbucket.org/project-tm/project.search)
+### [Модуль синхронизации справочника и списка](https://bitbucket.org/project-tm/projetc.sync)
+### [Модуль скидок](https://bitbucket.org/project-tm/project.discount)
+### [Коммерческие предложения с генерацией pdf файлов](https://bitbucket.org/project-tm/commercial.offers)
 
-### Шаблон для магазина - https://bitbucket.org/project-tm/templates.catalog.sky
+### [Шаблон для магазина](https://bitbucket.org/project-tm/templates.catalog.sky)
 - выбор товарных предложений через select
 - c этим товаров смотрят, покупают
 - блок заказываемых, рекомендованных товаров
@@ -42,14 +42,14 @@
 - просмотренные товары
 - формы
 
-### Модуль форм - https://bitbucket.org/project-tm/project.form
+### [Модуль форм](https://bitbucket.org/project-tm/project.form)
 - ajax загрузка файлов в форму
 
-### Модуль каталога - https://bitbucket.org/project-tm/project.catalog
+### [Модуль каталога](https://bitbucket.org/project-tm/project.catalog)
 - цены из разных валют, сохраняются в одной валюте в отдельном поле
 - для торговых предложений, выясняется сумма остатков, минимальная, максимальная цена
 
-### https://bitbucket.org/project-tm/components - Компаненты
+### [Компаненты](https://bitbucket.org/project-tm/components)
 - ajax.wrapper.list
 - ajax враппер для списков, форм
 - позволяет последовательно загружать элементы с других компанентов (с пагинацией)

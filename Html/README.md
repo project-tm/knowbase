@@ -16,7 +16,7 @@
 # Плагины
 - [сообщение для старых браузеров от Яндекса](https://tech.yandex.ru/browser/constructor/)
 - слайдер - <a href="http://kenwheeler.github.io/slick/" target='_blank'>slick</a> (jquery) swiper (vanilla)
-- попапы - fancybox3
+- попапы - <a href="http://fancyapps.com/fancybox/3/" target="_blank">fancybox3</a>
 - селекты - select2
 - кастом скролл: malihu custom scrollbar
 - табы - с аяксом, но куча левых файлов и переназначение стилей: jquery ui tabs

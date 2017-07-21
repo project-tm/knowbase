@@ -15,7 +15,7 @@
 
 # Плагины
 - [сообщение для старых браузеров от Яндекса](https://tech.yandex.ru/browser/constructor/)
-- слайдер - slick-carousel (jquery) swiper (vanilla)
+- слайдер - <a href="http://kenwheeler.github.io/slick/" target='_blank'>slick</a> (jquery) swiper (vanilla)
 - попапы - fancybox3
 - селекты - select2
 - кастом скролл: malihu custom scrollbar

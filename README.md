@@ -31,6 +31,8 @@
 
 ## 1С-Битрикс
 - [Создание модулей](Bitrix/Modules/README.md)
+- [Создание шаблонов](Bitrix/Templates/README.md)
+- [Создание компанентов](Bitrix/Components/README.md)
 - [Готовые модули 1С-Битрикс](Bitrix/Marketplace/README.md)
 
 ## [Инструменты](tools/README.md)

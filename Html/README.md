@@ -28,3 +28,4 @@
 - тач/свайп ивенты: hammerjs
 - поэкранная навигация (каждый раздел на всю высоту экрана): fullpage
 - датапикеры: jquery datepicker (60 звезд) , air datepicker (630 звезд)
+- <a href="https://github.com/RobinHerbots/Inputmask" target="_blank">Inputmask</a>

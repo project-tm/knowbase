@@ -18,7 +18,7 @@
 - слайдер - <a href="http://kenwheeler.github.io/slick/" target='_blank'>slick</a> (jquery) swiper (vanilla)
 - попапы - <a href="http://fancyapps.com/fancybox/3/" target="_blank">fancybox3</a>
 - селекты - select2
-- кастом скролл: malihu custom scrollbar
+- кастом скролл: malihu custom scrollbar, <a href="https://github.com/gromo/jquery.scrollbar" target="_blank">jQuery Scrollbar</a>
 - табы - с аяксом, но куча левых файлов и переназначение стилей: jquery ui tabs
 - заполнение блоками всего свободного пространства: masonry
 - валидация форм: jquery validation

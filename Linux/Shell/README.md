@@ -6,6 +6,10 @@
 - `df -h` - место на диске
 - `du -sh */` - место в папках
 
+### [Экспорт импорт базы данных](mysqldump.md)
+- `mysqldump -u positions -p positions > positions.sql`
+- `mysql -u devpositions -p devpositions < positions.sql`
+
 ### Список повседневных команд:
 
 - [`ls`](http://www.opennet.ru/man.shtml?topic=ls&category=1) - выводит содержимое каталога

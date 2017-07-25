@@ -31,6 +31,7 @@
 - [Пропробуй Git](https://try.github.io) - интерактивный курс от [codeschool.com](http://codeschool.com) для [github.com](http://github.com)
 
 ## 1С-Битрикс
+- [Статьи](Bitrix/Статьи/README.md)
 - [Создание модулей](Bitrix/Modules/README.md)
 - [Создание шаблонов](Bitrix/Templates/README.md)
 - [Создание компанентов](Bitrix/Components/README.md)

@@ -51,8 +51,9 @@
 - [Тестирование](Html/Тестирование/README.md)
 
 ## JavaScript
-- [Уроки JavaScript в android](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial)
 - [Современный учебник Javascript](https://learn.javascript.ru/)
+- [Fancybox 2](http://fancyapps.com/fancybox/)
+- [Уроки JavaScript в android](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial)
 
 ## Программирование
 - [Регулярные выражения](Regexp/readme.pdf)

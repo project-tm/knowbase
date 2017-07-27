@@ -67,7 +67,7 @@
 - [Уроки JavaScript в android](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial)
 
 ## Программирование
-- [Регулярные выражения](Regexp/readme.pdf)
+- [Регулярные выражения](Regexp/README.md)
 
 ## Linux
 - [Командная строка](Linux/Shell/README.md)

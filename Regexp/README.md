@@ -2,7 +2,7 @@
 
 - [Онлайн-инструменты для работы с регулярными выражениями](/tools/README.md#Регулярные-выражения)
 
-- [Шпаргалка](Regexp/readme.pdf)
+- [Шпаргалка](readme.pdf)
 
 - Мануалы для изучения
   - [Регулярные выражения в JS](https://learn.javascript.ru/regular-expressions-javascript)

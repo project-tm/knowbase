@@ -9,5 +9,6 @@
 - http://checkmy.ru
 - https://webmaster.yandex.ru/tools/server-response/
 - https://bertal.ru
+- https://be1.ru/otvet-servera/
 - [Пакетная проверка статусов ответа сервера](https://tools.pixelplus.ru/tools/server-response)
 

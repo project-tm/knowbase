@@ -39,6 +39,7 @@ web.xml
 /bitrix/modules/*/ttf/
 !/bitrix/php_interface
 /bitrix/php_interface/dbconn.php
+/bitrix/.settings.php
 
 /upload
 
@@ -94,4 +95,5 @@ modules/*/la/
 modules/*/distr/
 modules/*/ttf/
 php_interface/dbconn.php
+.settings.php
 ```

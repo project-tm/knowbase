@@ -5,6 +5,7 @@
 	- [Форматирование текста](#user-content-Форматирование-текста)
 - [Git](#git)
 - [1С-Битрикс](#1С-Битрикс)
+- [Apache](#Apache)
 - [Инструменты](#Инструменты)
 - [Оптимизация](#Оптимизация)
 - [Верстка](#Верстка)
@@ -36,6 +37,9 @@
 - [Создание шаблонов](Bitrix/Templates/README.md)
 - [Создание компанентов](Bitrix/Components/README.md)
 - [Готовые модули 1С-Битрикс](Bitrix/Marketplace/README.md)
+
+## Apache
+- [Набор правил в .htaccess](Apache/.htaccess)
 
 ## [Инструменты](tools/README.md)
 

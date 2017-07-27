@@ -61,7 +61,6 @@ sitemap_iblock_*.xml
 *.rar
 *.pdf
 
-
 tmp/
 admin/
 backup/

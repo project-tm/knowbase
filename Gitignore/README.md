@@ -83,7 +83,6 @@ tools/
 html_pages/
 wizards/
 web.config
-/*.php
 
 modules/*/install/
 modules/*/public/

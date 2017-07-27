@@ -6,6 +6,7 @@
 - [Git](#git)
 - [1С-Битрикс](#1С-Битрикс)
 - [Apache](#apache)
+- [Nginx](#nginx)
 - [Инструменты](#Инструменты)
 - [Оптимизация](#Оптимизация)
 - [Верстка](#Верстка)
@@ -41,6 +42,10 @@
 ## Apache
 - [Набор правил в .htaccess](Apache/.htaccess)
 - [.htaccess сниппеты](Apache/README.md)
+
+## Nginx
+- [Полезные шаблоны конфигов для Nginx](Nginx/README.md)
+- [Полезные сниппеты для Nginx конфигов](https://habrahabr.ru/post/272381/)
 
 ## [Инструменты](tools/README.md)
 

@@ -11,6 +11,16 @@
 - [Pixlr](https://pixlr.com/editor/)
 - [Инструмент для создания адаптивных шаблонов](https://bootstrapstudio.io/)
 
+## Регулярные выражения
+- [Генератор регулярных выражений](https://uiregex.com/)
+- [Конструктор регулярных выражений](http://www.pcre.ru/eval)
+- [Сервис для работы с регулярными выражениями](http://easyregexp.ru/)
+- [PHP Live Regex](http://www.phpliveregex.com/)
+- Тестирование регулярных выражений:
+  - https://regexr.ru/
+  - https://regex101.com/
+  - http://www.regextester.com
+
 
 ## Проверка заголовков ответа сервера
 - http://checkmy.ru

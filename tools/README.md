@@ -4,3 +4,9 @@
 - https://eivko.ru/editor
 - https://arsenkin.ru/tools/visualred/
 - [Онлайн Markdown редактор](http://dillinger.io/)
+
+## Проверка заголовков ответа сервера
+- http://checkmy.ru
+- https://webmaster.yandex.ru/tools/server-response/
+- https://bertal.ru
+

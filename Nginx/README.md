@@ -37,7 +37,7 @@
 
 ##Location блок на PHP
 Простой шаблон для быстрой и легкой установки PHP, FPM или CGI на ваш сайт.
-```
+```nginx
 location ~ \.php$ {
   try_files $uri =404;
   client_max_body_size 64m;
@@ -50,7 +50,7 @@ location ~ \.php$ {
 ##Rewrite и Redirection
 ### Force www
 [Корректный способ](http://nginx.org/en/docs/http/converting_rewrite_rules.html) определить удаленный сервер по домену без *www* и перенаправить его c *www*:
-```
+```nginx
 server {
   listen 80;
   server_name example.org;
@@ -63,11 +63,11 @@ server {
   ...
 }
 ```
-*Также работает для HTTPS *
+*Также работает для HTTPS
 
 ###Force no-www
 Корректный способ определить удаленный сервер по домену c *www* и перенаправить его без *www*:
-```
+```nginx
 server {
   listen 80;
   server_name example.org;
@@ -81,7 +81,7 @@ server {
 ```
 ### Force HTTPS
 Способ для переадресации с HTTP на HTTPS:  
-```
+```nginx
 server {
   listen 80;
   return 301 https://$host$request_uri;
@@ -98,11 +98,11 @@ server {
 ```
 ###Force Trailing Slash
 Данная строка добавляет слэш `/` в конце каждого URL, только в том случаее если в URL нет точки или параметров. Тоесть после *example.com/index.php* или *example.com/do?some=123* слэш не поставится.  
-```
+```nginx
 rewrite ^([^.\?]*[^/])$ $1/ permanent;
 ```
 ### Редирект на страницу
-```
+```nginx
 server {
   location = /oldpage.html {
     return 301 http://example.org/newpage.html;
@@ -110,14 +110,14 @@ server {
 }
 ```
 ### Редирект на сайт
-```
+```nginx
 server {
   server_name old-site.com
   return 301 $scheme://new-site.com$request_uri;
 }
 ```
 ### Редирект на определенный путь в URI
-```
+```nginx
 location /old-site {
   rewrite ^/old-site/(.*) http://example.org/new-site/$1 permanent;
 }
@@ -126,21 +126,21 @@ location /old-site {
 
 ###Кэширование
 Навсегда разрешить браузерам кэшировать статические содержимое. Nginx установит оба заголовка: Expires и Cache-Control.
-```
+```nginx
 location /static {
   root /data;
   expires max;
 }
 ```
 Запретить кэширование браузерам (например для отслеживания запросов) можно следующим образом:
-```
+```nginx
 location = /empty.gif {
   empty_gif;
   expires -1;
 }
 ```
 ###Gzip сжатие
-```
+```nginx
 gzip  on;
 gzip_buffers 16 8k;
 gzip_comp_level 6;
@@ -159,7 +159,7 @@ gzip_disable "msie6";
 ```
 ### Кэш файлов
 Если у вас кешируется большое количество статических файлов через Nginx, то кэширование метаданных этих файлов позволит сэкономить время задержки.
-```
+```nginx
 open_file_cache max=1000 inactive=20s;
 open_file_cache_valid 30s;
 open_file_cache_min_uses 2;
@@ -167,13 +167,13 @@ open_file_cache_errors on;
 ```
 ### SSL кэш
 Подключение SSL кэширования позволит возобновлять SSL сессии и сократить время к следующим обращениям к SSL/TLS протоколу.
-```
+```nginx
 ssl_session_cache shared:SSL:10m;
 ssl_session_timeout 10m;
 ```
 ### Поддержка Upstream
 Активация кеширования c использованием Upstream подключений:
-```
+```nginx
 upstream backend {
   server 127.0.0.1:8080;
   keepalive 32;
@@ -190,7 +190,7 @@ server {
 ```
 ###Мониторинг
 По умолчанию [Stub Status](http://nginx.org/ru/docs/http/ngx_http_stub_status_module.html) модуль не собирается, его сборку необходимо разрешить с помощью конфигурационного параметра —with-http_stub_status_module и активировать с помощью:
-```
+```nginx
 location /status {
   stub_status on;
   access_log off;
@@ -219,12 +219,12 @@ location /status {
 ```
 
 Затем установить найтройки для server/location блока, который необходимо защитить:
-```
+```nginx
 auth_basic "This is Protected";
 auth_basic_user_file /path/to/password-file;
 ```
 ###Открыть только локальный доступ
-```
+```nginx
 location /local {
   allow 127.0.0.1;
   deny all;
@@ -235,17 +235,20 @@ location /local {
 * Отключить SSLv3, если он включен по умолчанию. Это предотвратит [POODLE SSL Attack](http://nginx.com/blog/nginx-poodle-ssl/).
 * Шифры, которые наилучшим образом обеспечат защиту. [Mozilla Server Side TLS and Nginx](https://wiki.mozilla.org/Security/Server_Side_TLS#Nginx).
 
-		# don’t use SSLv3 ref: POODLE CVE-2014-356 - http://nginx.com/blog/nginx-poodle-ssl/
-		ssl_protocols  TLSv1 TLSv1.1 TLSv1.2;  
+```nginx
+# don’t use SSLv3 ref: POODLE CVE-2014-356 - http://nginx.com/blog/nginx-poodle-ssl/
+ssl_protocols  TLSv1 TLSv1.1 TLSv1.2;  
 
-		# Ciphers set to best allow protection from Beast, while providing forwarding secrecy, as defined by Mozilla (Intermediate Set) - https://wiki.mozilla.org/Security/Server_Side_TLS#Nginx
-		    ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:AES:CAMELLIA:DES-CBC3-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!aECDH:!EDH-DSS-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA';
-		ssl_prefer_server_ciphers  on;
+# Ciphers set to best allow protection from Beast, while providing forwarding secrecy, as defined by Mozilla (Intermediate Set) - https://wiki.mozilla.org/Security/Server_Side_TLS#Nginx
+    ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:AES:CAMELLIA:DES-CBC3-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!aECDH:!EDH-DSS-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA';
+ssl_prefer_server_ciphers  on;
+
+```
 
 ##Прочее
 ###Подзапросы после завершения
 Бывают ситуации, когда вам необходимо передать запрос на другой бэкэнд **в дополнении или после его обработки**. Первый случай -  отслеживать количество завершенных загрузок путем вызова API, после того как пользователь скачал файл. Второй случай  -отслеживать запрос, к которому вы бы хотели вернуться как можно быстрее (возможно с пустым .gif) и сделать соответствующие записи в фоновом режиме.  [**post_action**](http://wiki.nginx.org/HttpCoreModule#post_action), который позволяет вам определить подзапрос и будет отклонен по окончанию текущего запроса - является [лучшим решением](http://mailman.nginx.org/pipermail/nginx/2008-April/004524.html) для обоих вариантов.
-```
+```nginx
 location = /empty.gif {
   empty_gif;
   expires -1;
@@ -260,7 +263,7 @@ location @track {
 ###Распределение ресурсов между источниками
 
 Самый простой и наиболее известный способ кросс-доменного запроса на ваш сервер:
-```
+```nginx
 location ~* \.(eot|ttf|woff) {
   add_header Access-Control-Allow-Origin *;
 }

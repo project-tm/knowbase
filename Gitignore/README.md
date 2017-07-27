@@ -1,5 +1,7 @@
-# [.gitignore](#.gitignore)
-# [.gitignore bitrix](#.gitignore-bitrix)
+# Примеры .gitignore
+
+- [Пример для сайта](#.gitignore)
+- [Пример для папки bitrix](#.gitignore-bitrix)
 
 ### .gitignore 
 

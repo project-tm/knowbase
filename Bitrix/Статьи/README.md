@@ -1,4 +1,6 @@
-### [Материалы для подготовки к экзаменам Битрикс](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8-%D0%BA-%D1%8D%D0%BA%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%91%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81.md)
+### [Материалы для подготовки к экзаменам Битрикс](All/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B8-%D0%BA-%D1%8D%D0%BA%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%91%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81.md)
+
+([оригинал](https://github.com/studiofact/wiki-bitrix/wiki))
 
 #### Header, footer, разметка страниц
 * [Выводим любое содержание в header.php (функция SetViewTarget.md)](All/%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%D0%B8%D0%BC-%D0%BB%D1%8E%D0%B1%D0%BE%D0%B5-%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B2-header.php-(%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-SetViewTarget.md)
@@ -9,8 +11,8 @@
 ***
 
 #### D7 — приемы работы в новом ядре
-* [D7 — cоздание события и обработчика](https://github.com/studiofact/wiki-bitrix/wiki/D7-%E2%80%94-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F-%D0%B8-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0.md)
-* [D7 — функции отладки](https://github.com/studiofact/wiki-bitrix/wiki/D7-%E2%80%94-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8.md)
+* [D7 — cоздание события и обработчика](All/D7-%E2%80%94-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F-%D0%B8-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0.md)
+* [D7 — функции отладки](All/D7-%E2%80%94-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8-%D0%BE%D1%82%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8.md)
 
 ***
 
@@ -36,24 +38,24 @@
 ***
 
 #### Торговый каталог
-* [Постоянный обмен с 1С — как избежать сброса кэша](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9F%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD-%D1%81-1%D0%A1-%E2%80%94-%D0%BA%D0%B0%D0%BA-%D0%B8%D0%B7%D0%B1%D0%B5%D0%B6%D0%B0%D1%82%D1%8C-%D1%81%D0%B1%D1%80%D0%BE%D1%81%D0%B0-%D0%BA%D1%8D%D1%88%D0%B0.md)
+* [Постоянный обмен с 1С — как избежать сброса кэша](All/%D0%9F%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD-%D1%81-1%D0%A1-%E2%80%94-%D0%BA%D0%B0%D0%BA-%D0%B8%D0%B7%D0%B1%D0%B5%D0%B6%D0%B0%D1%82%D1%8C-%D1%81%D0%B1%D1%80%D0%BE%D1%81%D0%B0-%D0%BA%D1%8D%D1%88%D0%B0.md)
 * [Добавление в корзину: нюансы](All/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D1%83:-%D0%BD%D1%8E%D0%B0%D0%BD%D1%81%D1%8B.md)
 * [По умолчанию включать галочку «НДС включен в цену» у новых товаров](All/%D0%9F%D0%BE-%D1%83%D0%BC%D0%BE%D0%BB%D1%87%D0%B0%D0%BD%D0%B8%D1%8E-%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%D1%82%D1%8C-%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D1%83-%C2%AB%D0%9D%D0%94%D0%A1-%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD-%D0%B2-%D1%86%D0%B5%D0%BD%D1%83%C2%BB-%D1%83-%D0%BD%D0%BE%D0%B2%D1%8B%D1%85-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2.md)
 * [Изменение кода купонов на скидку при генерации](All/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%B4%D0%B0-%D0%BA%D1%83%D0%BF%D0%BE%D0%BD%D0%BE%D0%B2-%D0%BD%D0%B0-%D1%81%D0%BA%D0%B8%D0%B4%D0%BA%D1%83-%D0%BF%D1%80%D0%B8-%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8.md)
 * [Подписка на товар, если использовать компонент bitrix:sale.notice.product или SUBSCRIBE_URL](All/%D0%9F%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BA%D0%B0-%D0%BD%D0%B0-%D1%82%D0%BE%D0%B2%D0%B0%D1%80,-%D0%B5%D1%81%D0%BB%D0%B8-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82-bitrix:sale.notice.product-%D0%B8%D0%BB%D0%B8-SUBSCRIBE_URL.md)
-* [Как сбросить фасетный индекс?](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9A%D0%B0%D0%BA-%D1%81%D0%B1%D1%80%D0%BE%D1%81%D0%B8%D1%82%D1%8C-%D1%84%D0%B0%D1%81%D0%B5%D1%82%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%3F.md)
-* [Если не работает BigData (компонент catalog.bigdata.products.md)](https://github.com/studiofact/wiki-bitrix/wiki/%D0%95%D1%81%D0%BB%D0%B8-%D0%BD%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-BigData-(%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82-catalog.bigdata.products.md)
+* [Как сбросить фасетный индекс?](All/%D0%9A%D0%B0%D0%BA-%D1%81%D0%B1%D1%80%D0%BE%D1%81%D0%B8%D1%82%D1%8C-%D1%84%D0%B0%D1%81%D0%B5%D1%82%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%3F.md)
+* [Если не работает BigData (компонент catalog.bigdata.products.md)](All/%D0%95%D1%81%D0%BB%D0%B8-%D0%BD%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-BigData-(%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82-catalog.bigdata.products.md)
 
 ***
 
 #### Личный кабинет
-* [Список заказов: фильтрация по ID товара в заказе](https://github.com/studiofact/wiki-bitrix/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2:-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-ID-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0-%D0%B2-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B5.md)
+* [Список заказов: фильтрация по ID товара в заказе](All/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2:-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE-ID-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0-%D0%B2-%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B5.md)
 
 ***
 
 #### Оформление заказа
-* [Предустановка типа плательщика](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D1%82%D0%B8%D0%BF%D0%B0-%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%89%D0%B8%D0%BA%D0%B0.md)
-* [Заказ в один клик](https://github.com/studiofact/wiki-bitrix/wiki/%D0%97%D0%B0%D0%BA%D0%B0%D0%B7-%D0%B2-%D0%BE%D0%B4%D0%B8%D0%BD-%D0%BA%D0%BB%D0%B8%D0%BA.md)
+* [Предустановка типа плательщика](All/%D0%9F%D1%80%D0%B5%D0%B4%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D1%82%D0%B8%D0%BF%D0%B0-%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%89%D0%B8%D0%BA%D0%B0.md)
+* [Заказ в один клик](All/%D0%97%D0%B0%D0%BA%D0%B0%D0%B7-%D0%B2-%D0%BE%D0%B4%D0%B8%D0%BD-%D0%BA%D0%BB%D0%B8%D0%BA.md)
 
 ***
 
@@ -83,14 +85,14 @@
 ***
 
 #### Обмен с 1С
-* [Процесс обмена — общее описание](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%B0-%E2%80%94-%D0%BE%D0%B1%D1%89%D0%B5%D0%B5-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5.md)
+* [Процесс обмена — общее описание](All/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%B0-%E2%80%94-%D0%BE%D0%B1%D1%89%D0%B5%D0%B5-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5.md)
 * [Управление активностью товара при обмене с 1с](All/%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0-%D0%BF%D1%80%D0%B8-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%B5-%D1%81-1%D1%81.md)
 * [Выгрузка из 1С в определенный инфоблок](All/%D0%92%D1%8B%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0-%D0%B8%D0%B7-1%D0%A1-%D0%B2-%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B8%D0%BD%D1%84%D0%BE%D0%B1%D0%BB%D0%BE%D0%BA.md)
 * [Добавление обработки статусов в выгрузке из 1С](All/%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%81%D0%BE%D0%B2-%D0%B2-%D0%B2%D1%8B%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B5-%D0%B8%D0%B7-1%D0%A1..md)
-* [Обновляем вес товара из свойства инфоблока по событию OnSuccessCatalogImport1C](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC-%D0%B2%D0%B5%D1%81-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0-%D0%B8%D0%B7-%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0-%D0%B8%D0%BD%D1%84%D0%BE%D0%B1%D0%BB%D0%BE%D0%BA%D0%B0-%D0%BF%D0%BE-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8E-OnSuccessCatalogImport1C.md)
+* [Обновляем вес товара из свойства инфоблока по событию OnSuccessCatalogImport1C](All/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC-%D0%B2%D0%B5%D1%81-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B0-%D0%B8%D0%B7-%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0-%D0%B8%D0%BD%D1%84%D0%BE%D0%B1%D0%BB%D0%BE%D0%BA%D0%B0-%D0%BF%D0%BE-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8E-OnSuccessCatalogImport1C.md)
 * [Мультивалютность в умном фильтре](All/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%8E%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B2-%D1%83%D0%BC%D0%BD%D0%BE%D0%BC-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B5.md)
-* [Валютные цены: количество знаков после запятой](https://github.com/studiofact/wiki-bitrix/wiki/%D0%92%D0%B0%D0%BB%D1%8E%D1%82%D0%BD%D1%8B%D0%B5-%D1%86%D0%B5%D0%BD%D1%8B:-%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE-%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%B2-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5-%D0%B7%D0%B0%D0%BF%D1%8F%D1%82%D0%BE%D0%B9.md)
-* [Импорт из старых версий 1С: сообщение "Ошибка проверки источника запроса"](https://github.com/studiofact/wiki-bitrix/wiki/%D0%98%D0%BC%D0%BF%D0%BE%D1%80%D1%82-%D0%B8%D0%B7-%D1%81%D1%82%D0%B0%D1%80%D1%8B%D1%85-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9-1%D0%A1.md)
+* [Валютные цены: количество знаков после запятой](All/%D0%92%D0%B0%D0%BB%D1%8E%D1%82%D0%BD%D1%8B%D0%B5-%D1%86%D0%B5%D0%BD%D1%8B:-%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE-%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%B2-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5-%D0%B7%D0%B0%D0%BF%D1%8F%D1%82%D0%BE%D0%B9.md)
+* [Импорт из старых версий 1С: сообщение "Ошибка проверки источника запроса"](All/%D0%98%D0%BC%D0%BF%D0%BE%D1%80%D1%82-%D0%B8%D0%B7-%D1%81%D1%82%D0%B0%D1%80%D1%8B%D1%85-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9-1%D0%A1.md)
 
 ***
 
@@ -122,13 +124,13 @@
 ***
 
 #### Административная панель
-- [Своя кнопка в визуальном редакторе Битрикс](https://github.com/studiofact/wiki-bitrix/wiki/%D0%A1%D0%B2%D0%BE%D1%8F-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0-%D0%B2-%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B5-%D0%91%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81.md)
+- [Своя кнопка в визуальном редакторе Битрикс](All/%D0%A1%D0%B2%D0%BE%D1%8F-%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0-%D0%B2-%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC-%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B5-%D0%91%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81.md)
 
 ***
 
 #### Полезные приемы работы
 ##### Инфоблоки
-* [Оптимизация выборки элементов обычных и highload-инфоблоков](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%BA%D0%B8-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%B8%D0%B7-%D0%BE%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D1%85-%D0%B8-HL-%D0%B8%D0%BD%D1%84%D0%BE%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE%D0%B2.md)
+* [Оптимизация выборки элементов обычных и highload-инфоблоков](All/%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%BA%D0%B8-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2-%D0%B8%D0%B7-%D0%BE%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D1%85-%D0%B8-HL-%D0%B8%D0%BD%D1%84%D0%BE%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE%D0%B2.md)
 * [Оптимизация выборки элементов инфоблока (dev.1c-bitrix.ru.md)](http://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=43&LESSON_ID=3060&LESSON_PATH=3913.4776.4620.3060.md)
 * [Получение id элемента по его символьному коду](All/%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-id-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B0-%D0%BF%D0%BE-%D0%B5%D0%B3%D0%BE-%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC%D1%83-%D0%BA%D0%BE%D0%B4%D1%83.md)
 * [Узнать путь по дереву от корня до раздела](All/%D0%98%D0%BD%D1%84%D0%BE%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8:-%D0%A3%D0%B7%D0%BD%D0%B0%D1%82%D1%8C-%D0%BF%D1%83%D1%82%D1%8C-%D0%BF%D0%BE-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%83-%D0%BE%D1%82-%D0%BA%D0%BE%D1%80%D0%BD%D1%8F-%D0%B4%D0%BE-%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B0.md)
@@ -136,7 +138,7 @@
 * [Вывод похожих статей (dev.1c-bitrix.ru.md)](https://dev.1c-bitrix.ru/community/webdev/user/60622/blog/7126/.md)
 
 ##### Компоненты и шаблоны
-* [Шаблон компонента: как передать в script.js пусть к шаблону и не только его](https://github.com/studiofact/wiki-bitrix/wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%B0:-%D0%BA%D0%B0%D0%BA-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%8C-%D0%B2-script.js-%D0%BF%D1%83%D1%82%D1%8C-%D0%BA-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%83-%D0%B8-%D0%BD%D0%B5-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B5%D0%B3%D0%BE.md)
+* [Шаблон компонента: как передать в script.js пусть к шаблону и не только его](All/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D0%B0:-%D0%BA%D0%B0%D0%BA-%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%8C-%D0%B2-script.js-%D0%BF%D1%83%D1%82%D1%8C-%D0%BA-%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%83-%D0%B8-%D0%BD%D0%B5-%D1%82%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE-%D0%B5%D0%B3%D0%BE.md)
 
 ##### Функции
 * [Функция транслита строки](All/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8.md)
@@ -153,4 +155,4 @@
 #### Разное полезное
 * [Принудительное повторное обновление ядра Битрикс](All/%D0%9F%D1%80%D0%B8%D0%BD%D1%83%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D0%B2%D1%82%D0%BE%D1%80%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%8F%D0%B4%D1%80%D0%B0-Bitrix.md)
 * [Если удалили файл crontab](All/%D0%95%D1%81%D0%BB%D0%B8-%D1%83%D0%B4%D0%B0%D0%BB%D0%B8%D0%BB%D0%B8-%D1%84%D0%B0%D0%B9%D0%BB-crontab.md)
-* [Как распаковать архив с бэкапом Битрикс стандартным tar](https://github.com/studiofact/wiki-bitrix/wiki/%D0%9A%D0%B0%D0%BA-%D1%80%D0%B0%D1%81%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%B0%D1%80%D1%85%D0%B8%D0%B2-%D1%81-%D0%B1%D1%8D%D0%BA%D0%B0%D0%BF%D0%BE%D0%BC-%D0%91%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81-%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%BC-tar.md)
+* [Как распаковать архив с бэкапом Битрикс стандартным tar](All/%D0%9A%D0%B0%D0%BA-%D1%80%D0%B0%D1%81%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%B0%D1%80%D1%85%D0%B8%D0%B2-%D1%81-%D0%B1%D1%8D%D0%BA%D0%B0%D0%BF%D0%BE%D0%BC-%D0%91%D0%B8%D1%82%D1%80%D0%B8%D0%BA%D1%81-%D1%81%D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D1%82%D0%BD%D1%8B%D0%BC-tar.md)

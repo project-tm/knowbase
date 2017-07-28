@@ -5,6 +5,7 @@
 - `grep -r -n --exclude-dir={upload,xhprof,managed_cache,cache,test,webstat,backup,images,import,old} '' ./` - поиск
 - `df -h` - место на диске
 - `du -sh */` - место в папках
+- `find . \( ! -regex 'cache|upload' \)  -type f -mtime -4` - поиск  
 
 ### [Экспорт импорт базы данных](mysqldump.md)
 - `mysqldump -u positions -p positions > positions.sql`

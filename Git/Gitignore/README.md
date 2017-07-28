@@ -10,10 +10,12 @@ web.xml
 /test
 /webstat
 /vendor
+/composer.phar
 /cgi-bin
 
 *.tar
 *.tar.gz
+*.sql
 *.log
 *.tmp
 *.xml
@@ -22,6 +24,12 @@ web.xml
 *.swf
 *.rar
 *.pdf
+
+yandex_*.html
+yandex_*.txt
+xml_answers.txt
+sitemap_iblock_*.xml
+restore.php
 
 /bitrix
 /bitrix/*
@@ -42,11 +50,6 @@ web.xml
 /bitrix/.settings.php
 
 /upload
-
-yandex_*.html
-yandex_*.txt
-xml_answers.txt
-sitemap_iblock_*.xml
 ```
 
 ### .gitignore bitrix

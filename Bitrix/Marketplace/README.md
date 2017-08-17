@@ -19,6 +19,7 @@
 - [Авторизация по sms](https://marketplace.1c-bitrix.ru/solutions/rarus.sms4bauth/)
 - [Набор инструментов поддержки проектов (Конвертация строковых свойств в списочные или привязка по элементам без потери информации)](https://github.com/worksolutions/bitrix-module-tools/)
 - [PHP sdk для Bitrix24](https://github.com/mesilov/bitrix24-php-sdk)
+- Сеть офисов на яндекс.карте[https://marketplace.1c-bitrix.ru/solutions/ithive.offices/]
 
 ## Свойства инфоблоков
 - [Группировка свойств](http://marketplace.1c-bitrix.ru/solutions/redsign.grupper)

@@ -37,6 +37,7 @@
 ### Почта
 - [Отправка почты через SMTP](https://marketplace.1c-bitrix.ru/solutions/wsrubi.smtp/)
 - [Позволяет просматривать информацию об отправленных письмах с сайта](https://marketplace.1c-bitrix.ru/solutions/ghj2k2.mailinfo/)
+- [MailAttaching - прикрепление файлов к исходящим почтовым сообщениям](https://marketplace.1c-bitrix.ru/solutions/module.mailattaching/)
 
 ## Контент
 - [Генератор прайс-листа](http://marketplace.1c-bitrix.ru/solutions/slobel.pricegeneration/)

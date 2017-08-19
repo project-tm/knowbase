@@ -47,6 +47,7 @@ restore.php
 /bitrix/modules/*/la/
 /bitrix/modules/*/distr/
 /bitrix/modules/*/ttf/
+/bitrix/modules/*/tmp
 !/bitrix/php_interface
 /bitrix/php_interface/dbconn.php
 /bitrix/.settings.php

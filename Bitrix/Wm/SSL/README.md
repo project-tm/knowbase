@@ -27,7 +27,7 @@ image
 
 Далее переходим в директорию /tmp:
 
-`sh cd /tmp`
+`cd /tmp`
 
 С помощью git скачиваем файлы Let’s Encrypt. Сам скрипт теперь называется certbot:
 
@@ -85,18 +85,20 @@ Donating to EFF: https://eff.org/donate-le
 
 Если у вас уже были установлены сертификаты, удаляем или комментируем строки с ними и вставляем новые:
 
-`
+```sh
 ssl_certificate /etc/letsencrypt/live/my-domain.ru/fullchain.pem;
 ssl_certificate_key /etc/letsencrypt/live/my-domain.ru/privkey.pem;
-`
+```
 
 Не забываем включить ssl, если этого не было сделано ранее:
 
-`ssl on;
+```sh
+ssl on;
 keepalive_timeout 70;
 keepalive_requests 150;
 ssl_session_cache shared:SSL:10m;
-ssl_session_timeout 10m;`
+ssl_session_timeout 10m;
+```
 
 После этого перезапускаем nginx:
 

@@ -1,6 +1,6 @@
 # SSL на Битрикс виртуальной машине 7 с помощью Let’s Encrypt
 
-```
+```sh
 cd /usr/local/sbin
 sudo wget https://dl.eff.org/certbot-auto
 cd /tmp
@@ -23,11 +23,11 @@ image
 
 Первое, что необходимо сделать — установить git:
 
-`yum install git`
+```sh yum install git```
 
 Далее переходим в директорию /tmp:
 
-`cd /tmp`
+```sh cd /tmp```
 
 С помощью git скачиваем файлы Let’s Encrypt. Сам скрипт теперь называется certbot:
 

@@ -23,11 +23,11 @@ image
 
 Первое, что необходимо сделать — установить git:
 
-```sh yum install git```
+`yum install git`
 
 Далее переходим в директорию /tmp:
 
-```sh cd /tmp```
+`sh cd /tmp`
 
 С помощью git скачиваем файлы Let’s Encrypt. Сам скрипт теперь называется certbot:
 

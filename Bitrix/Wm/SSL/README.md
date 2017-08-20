@@ -85,8 +85,10 @@ Donating to EFF: https://eff.org/donate-le
 
 Если у вас уже были установлены сертификаты, удаляем или комментируем строки с ними и вставляем новые:
 
-`ssl_certificate /etc/letsencrypt/live/my-domain.ru/fullchain.pem;
-ssl_certificate_key /etc/letsencrypt/live/my-domain.ru/privkey.pem;`
+`
+ssl_certificate /etc/letsencrypt/live/my-domain.ru/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/my-domain.ru/privkey.pem;
+`
 
 Не забываем включить ssl, если этого не было сделано ранее:
 

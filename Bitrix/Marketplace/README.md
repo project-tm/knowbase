@@ -19,8 +19,11 @@
 - [Авторизация по sms](https://marketplace.1c-bitrix.ru/solutions/rarus.sms4bauth/)
 - [Набор инструментов поддержки проектов (Конвертация строковых свойств в списочные или привязка по элементам без потери информации)](https://github.com/worksolutions/bitrix-module-tools/)
 - [PHP sdk для Bitrix24](https://github.com/mesilov/bitrix24-php-sdk)
+- Сеть офисов на яндекс.карте[https://marketplace.1c-bitrix.ru/solutions/ithive.offices/]
 
 ## Свойства инфоблоков
+- [Набор свойств](https://marketplace.1c-bitrix.ru/solutions/london.setofproperties/)
+ - новое свойство позволяет группировать в себе множество подсвойств со своими названиями, сортировкой, символьным кодом и настройками. 
 - [Группировка свойств](http://marketplace.1c-bitrix.ru/solutions/redsign.grupper)
 - [Дополнительные свойства инфоблоков](https://marketplace.1c-bitrix.ru/solutions/askaron.prop/ )
 - [Групповые манипуляции над значениями полей и свойств элементов инфоблока.](http://marketplace.1c-bitrix.ru/solutions/av.ibprops/)
@@ -34,6 +37,7 @@
 ### Почта
 - [Отправка почты через SMTP](https://marketplace.1c-bitrix.ru/solutions/wsrubi.smtp/)
 - [Позволяет просматривать информацию об отправленных письмах с сайта](https://marketplace.1c-bitrix.ru/solutions/ghj2k2.mailinfo/)
+- [MailAttaching - прикрепление файлов к исходящим почтовым сообщениям](https://marketplace.1c-bitrix.ru/solutions/module.mailattaching/)
 
 ## Контент
 - [Генератор прайс-листа](http://marketplace.1c-bitrix.ru/solutions/slobel.pricegeneration/)

@@ -42,9 +42,12 @@ restore.php
 /bitrix/modules/*/tools/
 /bitrix/modules/*/cvtables/
 /bitrix/modules/*/ru/
+/bitrix/modules/*/de/
+/bitrix/modules/*/en/
 /bitrix/modules/*/la/
 /bitrix/modules/*/distr/
 /bitrix/modules/*/ttf/
+/bitrix/modules/*/tmp
 !/bitrix/php_interface
 /bitrix/php_interface/dbconn.php
 /bitrix/.settings.php

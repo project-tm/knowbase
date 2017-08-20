@@ -40,6 +40,7 @@
 - [Создание шаблонов](Bitrix/Templates/README.md)
 - [Создание компанентов](Bitrix/Components/README.md)
 - [Готовые модули 1С-Битрикс](Bitrix/Marketplace/README.md)
+- [1C-Битрикс: Виртуальная машина](Bitrix/Wm/README.md)
 
 ## Apache
 - [Набор правил в .htaccess](Apache/.htaccess)

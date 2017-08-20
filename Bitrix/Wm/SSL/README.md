@@ -1,16 +1,5 @@
 # SSL на Битрикс виртуальной машине 7 с помощью Let’s Encrypt
 
-```sh
-cd /usr/local/sbin
-sudo wget https://dl.eff.org/certbot-auto
-cd /tmp
-git clone https://github.com/certbot/certbot
-sudo chmod a+x /usr/local/sbin/certbot-auto
-certbot-auto certonly --webroot --agree-tos --email info@site.ru -w /home/bitrix/www/ -d site.ru -d www.site.ru -d test.site.ru
-openssl dhparam -out /etc/nginx/ssl/dhparam.pem 2048
-service nginx reload
-```
-
 Да, на Хабре уже много текстов про сертификаты Let’s Encrypt, но полной пошаговой инструкции я, к сожалению, не нашёл. Хотел восполнить пробел. К тому же, с мая 2016 года в процессе установки произошли незначительные изменения, которые могут сбить с толку новичка. Поэтому я решил написать эту инструкцию. Так сказать себе на память и другим в помощь.
 
 Эта инструкция, в первую очередь, должна быть интересна новичкам.

@@ -4,6 +4,18 @@
 
 ## ORM
 ```php
+BookTable::getList(array(
+    'select'  => ... // имена полей, которые необходимо получить в результате
+    'filter'  => ... // описание фильтра для WHERE и HAVING
+    'group'   => ... // явное указание полей, по которым нужно группировать результат
+    'order'   => ... // параметры сортировки
+    'limit'   => ... // количество записей
+    'offset'  => ... // смещение для limit
+    'runtime' => ... // динамически определенные поля
+));
+```
+
+```php
 $rsItems = Bitrix\Iblock\ElementTable::getList(
    array(
       'select' => array(

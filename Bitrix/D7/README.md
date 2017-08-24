@@ -2,6 +2,7 @@
 
 - [Форматирование даты](#Форматирование-даты)
 - [Кеширование в компаненте](#Кеширование-в-компаненте)
+- [Статические блоки](#Статические-блоки)
 - [Отложенные переменные в шаблоне](#Отложенные-переменные-в-шаблоне)
 - [Добавление стилей, js прямо в шаблоне](#Добавление-стилей-js-прямо-в-шаблоне)
 - [ORM](#ORM)
@@ -23,6 +24,15 @@ final public function setResultCacheKeys($arResultCacheKeys) {
     else
         $this->arResultCacheKeys = array_merge($this->arResultCacheKeys, $arResultCacheKeys);
 }
+```
+
+## Статические блоки
+```php
+<? $APPLICATION->ShowViewContent('compare.list.filter'); ?>
+
+<?$this->SetViewTarget('compare.list.filter');?>
+compare-list-filter
+<?$this->EndViewTarget();?>
 ```
 
 ## Отложенные переменные в шаблоне

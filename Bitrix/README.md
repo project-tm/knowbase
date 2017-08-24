@@ -1,6 +1,6 @@
 ## 1С-Битрикс
 
-- [Куски кода](Code/README.md)
+- [Заготовки кода](Code/README.md)
 - [Статьи](Статьи/README.md)
 - [Создание модулей](Modules/README.md)
 - [Создание шаблонов](Templates/README.md)

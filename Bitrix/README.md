@@ -1,6 +1,6 @@
 ## 1С-Битрикс
 
-- [D7](D7/README.md)
+- [Курски кода](Code/README.md)
 - [Статьи](Статьи/README.md)
 - [Создание модулей](Modules/README.md)
 - [Создание шаблонов](Templates/README.md)

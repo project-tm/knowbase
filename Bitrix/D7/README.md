@@ -1,6 +1,12 @@
-# D7
+# Куски кода
 
+- [Форматирование даты](#Форматирование-даты)
 - [ORM](#ORM)
+
+## Форматирование даты
+```php
+$arItem["DISPLAY_ACTIVE_FROM"] = CIBlockFormatProperties::DateFormat($arParams["ACTIVE_DATE_FORMAT"], MakeTimeStamp($arItem["ACTIVE_FROM"], CSite::GetDateFormat()));
+```
 
 ## ORM
 ```php

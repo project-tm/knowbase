@@ -2,10 +2,13 @@
 
 - [Форматирование даты](#Форматирование-даты)
 - [Кеширование в компаненте](#Кеширование-в-компаненте)
+- [Отложенные переменные в шаблоне](#Отложенные-переменные-в-шаблоне)
+- [Добавление стилей, js прямо в шаблоне](#Добавление-стилей,-js-прямо-в-шаблоне)
 - [ORM](#ORM)
 
 ## Форматирование даты
 ```php
+MakeTimeStamp($date, CSite::GetDateFormat();
 $arItem["DISPLAY_ACTIVE_FROM"] = CIBlockFormatProperties::DateFormat($arParams["ACTIVE_DATE_FORMAT"], MakeTimeStamp($arItem["ACTIVE_FROM"], CSite::GetDateFormat()));
 ```
 
@@ -20,6 +23,17 @@ final public function setResultCacheKeys($arResultCacheKeys) {
     else
         $this->arResultCacheKeys = array_merge($this->arResultCacheKeys, $arResultCacheKeys);
 }
+```
+
+## Отложенные переменные в шаблоне
+```php
+$APPLICATION->ShowProperty("contentClass");
+$APPLICATION->SetPageProperty("contentClass", "дизайн, веб, сайт");
+```
+## Добавление стилей, js прямо в шаблоне
+```php
+$this->addExternalCss('/bitrix/css/main/bootstrap.css');
+$this->addExternalJs('/bitrix/css/main/bootstrap.js');
 ```
 
 ## ORM

@@ -4,7 +4,7 @@
 - [Работа с базой знаний](#user-content-Работа-с-базой-знаний)
 	- [Форматирование текста](#user-content-Форматирование-текста)
 - [Git](#git)
-- [1С-Битрикс](#1С-Битрикс)
+- [1С-Битрикс](Bitrix/README.md)
 - [Apache](#apache)
 - [Nginx](#nginx)
 - [Инструменты](#Инструменты)
@@ -33,8 +33,6 @@
 - [Инструкция по работе с Git](Git/Инструкция/README.md)
 - [Scott Chacon - Pro Git (ru)](http://git-scm.com/book/ru) - бесплатная книга про Git
 - [Пропробуй Git](https://try.github.io) - интерактивный курс от [codeschool.com](http://codeschool.com) для [github.com](http://github.com)
-
-## [1С-Битрикс](Bitrix/README.md)
 
 ## Apache
 - [Набор правил в .htaccess](Apache/.htaccess)

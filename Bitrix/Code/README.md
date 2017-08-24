@@ -6,6 +6,7 @@
 - [Статические блоки](#Статические-блоки)
 - [Отложенные переменные в шаблоне](#Отложенные-переменные-в-шаблоне)
 - [Добавление стилей, js прямо в шаблоне](#Добавление-стилей-js-прямо-в-шаблоне)
+- [Обработка 404 init.php](#)
 - [ORM](#ORM)
 
 ## D7 getList в mysql
@@ -65,6 +66,20 @@ $APPLICATION->SetPageProperty("contentClass", "дизайн, веб, сайт");
 ```php
 $this->addExternalCss('/bitrix/css/main/bootstrap.css');
 $this->addExternalJs('/bitrix/css/main/bootstrap.js');
+```
+
+## Обработка 404 init.php
+```php
+AddEventHandler('main', 'OnEpilog', function(){
+    if (defined('ERROR_404') && ERROR_404 == 'Y' && !defined('ADMIN_SECTION')) {
+        global $APPLICATION;
+        $APPLICATION->RestartBuffer();
+        include $_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . '/header.php';
+        include $_SERVER['DOCUMENT_ROOT'] . '/404.php';
+        include $_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . '/footer.php';
+        exit;
+    }
+});
 ```
 
 ## ORM

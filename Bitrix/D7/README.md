@@ -1,11 +1,25 @@
 # Куски кода
 
 - [Форматирование даты](#Форматирование-даты)
+- [Кеширование в компаненте](#Кеширование-в-компаненте)
 - [ORM](#ORM)
 
 ## Форматирование даты
 ```php
 $arItem["DISPLAY_ACTIVE_FROM"] = CIBlockFormatProperties::DateFormat($arParams["ACTIVE_DATE_FORMAT"], MakeTimeStamp($arItem["ACTIVE_FROM"], CSite::GetDateFormat()));
+```
+
+## Кеширование в компаненте
+```php
+$this->getComponent()->setResultCacheKeys(array('BREADCRUMBS'));
+
+/* в ядре *
+final public function setResultCacheKeys($arResultCacheKeys) {
+    if ($this->arResultCacheKeys === false)
+        $this->arResultCacheKeys = $arResultCacheKeys;
+    else
+        $this->arResultCacheKeys = array_merge($this->arResultCacheKeys, $arResultCacheKeys);
+}
 ```
 
 ## ORM

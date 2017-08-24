@@ -1,0 +1,6 @@
+# отладка
+
+## file_var_dump
+function file_var_dump($arParams = array(), $mode = FILE_APPEND) {
+    file_put_contents($filename, "===================\r\n" . var_export($arParams, true) . "===================\r\n", $mode);
+}

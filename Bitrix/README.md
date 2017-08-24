@@ -1,7 +1,7 @@
 ## 1С-Битрикс
 
 - [Заготовки кода](Code/README.md)
-- [D7](#D7)
+- [D7](#d7)
 - [Статьи](Статьи/README.md)
 - [Создание модулей](Modules/README.md)
 - [Создание шаблонов](Templates/README.md)

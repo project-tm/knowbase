@@ -34,13 +34,7 @@
 - [Scott Chacon - Pro Git (ru)](http://git-scm.com/book/ru) - бесплатная книга про Git
 - [Пропробуй Git](https://try.github.io) - интерактивный курс от [codeschool.com](http://codeschool.com) для [github.com](http://github.com)
 
-## 1С-Битрикс
-- [Статьи](Bitrix/Статьи/README.md)
-- [Создание модулей](Bitrix/Modules/README.md)
-- [Создание шаблонов](Bitrix/Templates/README.md)
-- [Создание компанентов](Bitrix/Components/README.md)
-- [Готовые модули 1С-Битрикс](Bitrix/Marketplace/README.md)
-- [1C-Битрикс: Виртуальная машина](Bitrix/Wm/README.md)
+## [1С-Битрикс](Bitrix/README.md)
 
 ## Apache
 - [Набор правил в .htaccess](Apache/.htaccess)

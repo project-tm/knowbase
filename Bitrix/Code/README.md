@@ -2,6 +2,8 @@
 
 ## [D7](#d7-1)
 - [D7 getList в mysql](#d7-getlist-в-mysql)
+- [Генерация запроса в select](#Генерация-запроса-select)
+- [Связывать таблицы](#Связывать-таблицы)
 - [ORM](#orm)
 
 ## [Bitrix шаблоны](#bitrix-шаблоны-1)
@@ -159,6 +161,39 @@ FROM `d_project_upload_import` `project_upload_model_import`
 WHERE UPPER(`project_upload_model_import`.`TYPE`) like upper('Project\\Upload\\Agent\\Pwrs')
 AND UPPER(`project_upload_model_import`.`PAGE`) like upper('Шины (Склад 2)')
 AND `project_upload_model_import`.`CODE` = '875678'  
+```
+
+## Генерация запроса в select
+```php
+$select[] = 'IS_OVERDUE';
+$runtime['IS_OVERDUE'] = array(
+    'data_type'=>'integer',
+    'expression'=>array(
+        "CASE WHEN %s IS NOT NULL AND (%s < %s OR (%s IS NULL AND %s < ".$GLOBALS['DB']->currentTimeFunction().")) THEN 'Y' ELSE 'N' END",
+        'DEADLINE',
+        'DEADLINE',
+        'CLOSED_DATE',
+        'CLOSED_DATE',
+        'DEADLINE',
+    )
+);
+```php
+
+## Связывать таблицы
+```
+$runtime['IS_OVERDUE_DATA'] = array(
+    'data_type' => 'Bitrix\Tasks\Internals\Task\LogTable',
+    'expression'=>array(
+        'RAND()'
+    ),
+    'reference' => array(
+        '=ref.TASK_ID' => 'this.ID',
+        '=ref.USER_ID' => 'this.RESPONSIBLE_ID',
+        '=ref.FIELD' => new SqlExpression('?s', 'STATUS'),
+        '=ref.TO_VALUE' => new SqlExpression('?s', self::PERORT_STATUS)
+    ),
+    'join_type' => "INNER LEFT"
+);
 ```
 
 ## ORM

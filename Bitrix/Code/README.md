@@ -1,41 +1,23 @@
 # Куски кода
 
-## D7
+## [D7](#d7)
 - [D7 getList в mysql](#d7-getlist-в-mysql)
 - [ORM](#orm)
 
-## Bitrix шаблоны
+## [Bitrix шаблоны](#Bitrix-шаблоны)
 - [Отложенные переменные в шаблоне](#Отложенные-переменные-в-шаблоне)
 - [Добавление стилей, js прямо в шаблоне](#Добавление-стилей-js-прямо-в-шаблоне)
 - [Кеширование в компаненте](#Кеширование-в-компаненте)
 - [Статические блоки](#Статические-блоки)
 - [Позволяет добавлять правила валидации через атрибут data-validate \*](#Позволяет-добавлять-правила-валидации-через-атрибут-data-validate-)
 
-## Bitrix
+## [Bitrix](#bitrix)
 - [Кеширование данных](#Кеширование-данных)
 - [Форматирование даты](#Форматирование-даты)
 - [Пользовательские свойства](#Пользовательские-свойства)
 - [Обработка 404 init.php](#Обработка-404-initphp)
 
-## Позволяет добавлять правила валидации через атрибут data-validate *
-```php
-Пример: <input class="form__input" data-validate="{ minlength: 3, maxlength: 10 } >"
-
-function addValidateRules() {
-    const $inputs = $('.form__input').filter('[data-validate]');
-    $inputs.each((ind, input) => {
-        let rules = input.getAttribute('data-validate');
-        
-        if (!rules) {
-            return;
-        }
-        if (typeof rules === 'string') {
-            rules = JSON.parse(rules);
-        }
-        $(input).rules('add', rules);
-    });
-}
-```
+# Bitrix шаблоны
 
 ## Кеширование в компаненте
 ```php
@@ -69,6 +51,28 @@ $APPLICATION->SetPageProperty("contentClass", "дизайн, веб, сайт");
 $this->addExternalCss('/bitrix/css/main/bootstrap.css');
 $this->addExternalJs('/bitrix/css/main/bootstrap.js');
 ```
+
+## Позволяет добавлять правила валидации через атрибут data-validate *
+```php
+Пример: <input class="form__input" data-validate="{ minlength: 3, maxlength: 10 } >"
+
+function addValidateRules() {
+    const $inputs = $('.form__input').filter('[data-validate]');
+    $inputs.each((ind, input) => {
+        let rules = input.getAttribute('data-validate');
+        
+        if (!rules) {
+            return;
+        }
+        if (typeof rules === 'string') {
+            rules = JSON.parse(rules);
+        }
+        $(input).rules('add', rules);
+    });
+}
+```
+
+# Bitrix
 
 ## Пользовательские свойства
 1. Две функции для удобного получения и задания пользовательских свойств:
@@ -105,6 +109,8 @@ AddEventHandler('main', 'OnEpilog', function(){
     }
 });
 ```
+
+# D7
 
 ## D7 getList в mysql
 ```php

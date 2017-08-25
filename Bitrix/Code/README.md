@@ -12,6 +12,7 @@
 - [Позволяет добавлять правила валидации через атрибут data-validate \*](#Позволяет-добавлять-правила-валидации-через-атрибут-data-validate-)
 
 ## Bitrix
+- [Кеширование данных](#Кеширование-данных)
 - [Форматирование даты](#Форматирование-даты)
 - [Пользовательские свойства](#Пользовательские-свойства)
 - [Обработка 404 init.php](#Обработка-404-initphp)
@@ -34,12 +35,6 @@ function addValidateRules() {
         $(input).rules('add', rules);
     });
 }
-```
-
-## Форматирование даты
-```php
-MakeTimeStamp($date, CSite::GetDateFormat();
-$arItem["DISPLAY_ACTIVE_FROM"] = CIBlockFormatProperties::DateFormat($arParams["ACTIVE_DATE_FORMAT"], MakeTimeStamp($arItem["ACTIVE_FROM"], CSite::GetDateFormat()));
 ```
 
 ## Кеширование в компаненте

@@ -177,10 +177,10 @@ $runtime['IS_OVERDUE'] = array(
         'DEADLINE',
     )
 );
-```php
+```
 
 ## Связывать таблицы
-```
+```php
 $runtime['IS_OVERDUE_DATA'] = array(
     'data_type' => 'Bitrix\Tasks\Internals\Task\LogTable',
     'expression'=>array(

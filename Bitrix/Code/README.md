@@ -36,26 +36,6 @@ function addValidateRules() {
 }
 ```
 
-## D7 getList в mysql
-```php
-        $res = self::getList(array(
-                    'select' => array('ID'),
-                    'filter' => array(
-                        'TYPE' => $arData['TYPE'],
-                        'PAGE' => $arData['PAGE'],
-                        'CODE' => $arData['CODE']
-                    ),
-        ));
-        
-SELECT 
-	`project_upload_model_import`.`ID` AS `ID`
-FROM `d_project_upload_import` `project_upload_model_import` 
-
-WHERE UPPER(`project_upload_model_import`.`TYPE`) like upper('Project\\Upload\\Agent\\Pwrs')
-AND UPPER(`project_upload_model_import`.`PAGE`) like upper('Шины (Склад 2)')
-AND `project_upload_model_import`.`CODE` = '875678'  
-```
-
 ## Форматирование даты
 ```php
 MakeTimeStamp($date, CSite::GetDateFormat();
@@ -129,6 +109,26 @@ AddEventHandler('main', 'OnEpilog', function(){
         exit;
     }
 });
+```
+
+## D7 getList в mysql
+```php
+        $res = self::getList(array(
+                    'select' => array('ID'),
+                    'filter' => array(
+                        'TYPE' => $arData['TYPE'],
+                        'PAGE' => $arData['PAGE'],
+                        'CODE' => $arData['CODE']
+                    ),
+        ));
+        
+SELECT 
+	`project_upload_model_import`.`ID` AS `ID`
+FROM `d_project_upload_import` `project_upload_model_import` 
+
+WHERE UPPER(`project_upload_model_import`.`TYPE`) like upper('Project\\Upload\\Agent\\Pwrs')
+AND UPPER(`project_upload_model_import`.`PAGE`) like upper('Шины (Склад 2)')
+AND `project_upload_model_import`.`CODE` = '875678'  
 ```
 
 ## ORM

@@ -97,6 +97,11 @@ if (Bitrix\Main\Loader::includeModule('project.core')) {
 }
 ```
 
+## Форматирование даты
+```php
+MakeTimeStamp($date, CSite::GetDateFormat();
+$arItem["DISPLAY_ACTIVE_FROM"] = CIBlockFormatProperties::DateFormat($arParams["ACTIVE_DATE_FORMAT"], MakeTimeStamp($arItem["ACTIVE_FROM"], CSite::GetDateFormat()));
+```
 
 ## Пользовательские свойства
 1. Две функции для удобного получения и задания пользовательских свойств:

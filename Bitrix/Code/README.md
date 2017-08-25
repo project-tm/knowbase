@@ -19,6 +19,17 @@
 
 # Bitrix шаблоны
 
+## Отложенные переменные в шаблоне
+```php
+$APPLICATION->ShowProperty("contentClass");
+$APPLICATION->SetPageProperty("contentClass", "дизайн, веб, сайт");
+```
+## Добавление стилей, js прямо в шаблоне
+```php
+$this->addExternalCss('/bitrix/css/main/bootstrap.css');
+$this->addExternalJs('/bitrix/css/main/bootstrap.js');
+```
+
 ## Кеширование в компаненте
 ```php
 $this->getComponent()->setResultCacheKeys(array('BREADCRUMBS'));
@@ -39,17 +50,6 @@ final public function setResultCacheKeys($arResultCacheKeys) {
 <?$this->SetViewTarget('compare.list.filter');?>
 compare-list-filter
 <?$this->EndViewTarget();?>
-```
-
-## Отложенные переменные в шаблоне
-```php
-$APPLICATION->ShowProperty("contentClass");
-$APPLICATION->SetPageProperty("contentClass", "дизайн, веб, сайт");
-```
-## Добавление стилей, js прямо в шаблоне
-```php
-$this->addExternalCss('/bitrix/css/main/bootstrap.css');
-$this->addExternalJs('/bitrix/css/main/bootstrap.js');
 ```
 
 ## Позволяет добавлять правила валидации через атрибут data-validate *

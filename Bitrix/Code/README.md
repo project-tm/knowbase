@@ -6,6 +6,7 @@
 - [Статические блоки](#Статические-блоки)
 - [Отложенные переменные в шаблоне](#Отложенные-переменные-в-шаблоне)
 - [Добавление стилей, js прямо в шаблоне](#Добавление-стилей-js-прямо-в-шаблоне)
+- [Пользовательские свойства](#Пользовательские-свойства)
 - [Обработка 404 init.php](#Обработка-404-initphp)
 - [ORM](#orm)
 
@@ -67,6 +68,28 @@ $APPLICATION->SetPageProperty("contentClass", "дизайн, веб, сайт");
 $this->addExternalCss('/bitrix/css/main/bootstrap.css');
 $this->addExternalJs('/bitrix/css/main/bootstrap.js');
 ```
+
+## Пользовательские свойства
+1. Две функции для удобного получения и задания пользовательских свойств:
+```php
+function GetUserField ($entity_id, $value_id, $property_id)
+{
+	$arUF = $GLOBALS["USER_FIELD_MANAGER"]->GetUserFields ($entity_id, $value_id);
+	return $arUF[$property_id]["VALUE"];
+}
+
+function SetUserField ($entity_id, $value_id, $uf_id, $uf_value)
+{
+   return $GLOBALS["USER_FIELD_MANAGER"]->Update ($entity_id, $value_id,
+	Array ($uf_id => $uf_value));
+}
+```
+2. Пример использования:
+```php
+SetUserField ("BLOG_COMMENT", $CommentID, "UF_RATING", $Rating);
+echo "Рейтинг комментария: ".GetUserField ("BLOG_COMMENT", $CommentID, "UF_RATING");
+````
+
 
 ## Обработка 404 init.php
 ```php

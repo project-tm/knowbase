@@ -19,7 +19,7 @@
 - [Авторизация по sms](https://marketplace.1c-bitrix.ru/solutions/rarus.sms4bauth/)
 - [Набор инструментов поддержки проектов (Конвертация строковых свойств в списочные или привязка по элементам без потери информации)](https://github.com/worksolutions/bitrix-module-tools/)
 - [PHP sdk для Bitrix24](https://github.com/mesilov/bitrix24-php-sdk)
-- Сеть офисов на яндекс.карте[https://marketplace.1c-bitrix.ru/solutions/ithive.offices/]
+- [Сеть офисов на яндекс.карте](https://marketplace.1c-bitrix.ru/solutions/ithive.offices/)
 
 ## Свойства инфоблоков
 - [Набор свойств](https://marketplace.1c-bitrix.ru/solutions/london.setofproperties/)
@@ -47,3 +47,7 @@
 - [СМС для интернет-магазина и бонусы для клиентов](http://marketplace.1c-bitrix.ru/solutions/intis.senduserssms/)
 - [Уведомление о заказе в Telegram](http://marketplace.1c-bitrix.ru/solutions/justdevelop.morder/)
 - [Статус заказа во ВКонтакте](http://marketplace.1c-bitrix.ru/solutions/happysanta.orderstatus/)
+
+## Доставка
+- [Интеграция с DPD](https://marketplace.1c-bitrix.ru/solutions/ipol.dpd/)
+- [Доставка Boxberry](https://marketplace.1c-bitrix.ru/solutions/up.boxberrydelivery/)

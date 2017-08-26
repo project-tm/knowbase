@@ -7,7 +7,7 @@
 - [1С-Битрикс](Bitrix/README.md)
 - [Apache](#apache)
 - [Nginx](#nginx)
-- [Инструменты](#Инструменты)
+- [Инструменты](tools/README.md)
 - [Оптимизация](#Оптимизация)
 - [Верстка](#Верстка)
 - [JavaScript](#javascript)
@@ -41,8 +41,6 @@
 ## Nginx
 - [Полезные шаблоны конфигов для Nginx](Nginx/README.md)
 - [Полезные сниппеты для Nginx конфигов](https://habrahabr.ru/post/272381/)
-
-## [Инструменты](tools/README.md)
 
 ## Оптимизация
 - [Оптимизация сайта](https://bitbucket.org/project-tm/project.testing)

@@ -9,6 +9,7 @@
 - [Контент](#Контент)
 - [Интернет магазины](#Интернет-магазины)
 - [Доставка](#Доставка)
+- [Crm](#crm)
 
 ## Обязательно к установке
 - [Агенты на кроне](https://marketplace.1c-bitrix.ru/solutions/askaron.agents/)
@@ -53,3 +54,6 @@
 ## Доставка
 - [Интеграция с DPD](https://marketplace.1c-bitrix.ru/solutions/ipol.dpd/)
 - [Доставка Boxberry](https://marketplace.1c-bitrix.ru/solutions/up.boxberrydelivery/)
+
+## CRM
+- [retailCRM](http://marketplace.1c-bitrix.ru/solutions/intaro.intarocrm/)

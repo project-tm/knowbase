@@ -3,6 +3,7 @@
 
 - [Обязательно к установке](#Обязательно-к-установке)
 - [Полезное](#Полезное)
+- [Карты](#Карты)
 - [Свойства инфоблоков](#Свойства-инфоблоков)
 - [Обратная связь](#Обратная-связь)
 - [Почта](#Почта)
@@ -21,8 +22,11 @@
 - [Авторизация по sms](https://marketplace.1c-bitrix.ru/solutions/rarus.sms4bauth/)
 - [Набор инструментов поддержки проектов (Конвертация строковых свойств в списочные или привязка по элементам без потери информации)](https://github.com/worksolutions/bitrix-module-tools/)
 - [PHP sdk для Bitrix24](https://github.com/mesilov/bitrix24-php-sdk)
-- [Сеть офисов на яндекс.карте](https://marketplace.1c-bitrix.ru/solutions/ithive.offices/)
 - [Настраиваемый Ajax Preloader](http://marketplace.1c-bitrix.ru/solutions/sotbit.preloader/)
+
+## Карты
+- [Офис на Яндекс и Гугл картах, прокладка маршрута](https://marketplace.1c-bitrix.ru/solutions/bendersay.layroutecardyago/)
+- [Сеть офисов на яндекс.карте](https://marketplace.1c-bitrix.ru/solutions/ithive.offices/)
 
 ## Свойства инфоблоков
 - [Набор свойств](https://marketplace.1c-bitrix.ru/solutions/london.setofproperties/)

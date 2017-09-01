@@ -22,6 +22,11 @@
 - импорт товаров из storeland.ru (имитация авторизации админа в системе)
 - импорт из друпала (нодов, таксономии, полей, цен, пользователей с переносом паролей, заказов)
 
+### [Курс рубля по курсу cbr.ru](https://bitbucket.org/project-tm/project.cbr)
+### [Модуль скидок](https://bitbucket.org/project-tm/project.discount)
+### [Модуль заказа в 1 клик](https://bitbucket.org/project-tm/project.onclick)
+### [Модуль sms-авторизации на сайтеhttps://www.youtube.com/watch?v=ZlEwfQ6ziN4&index=15&list=PLyq3mTLSYg59wT8Ku1dJ5mqMQeS550CIM](https://bitbucket.org/project-tm/project.sms)
+
 ### [Модуль поддержки](https://bitbucket.org/project-tm/project.support)
 - обмен сообщениями между пользователем и службой поддержки (2 форума)
 - обмен сообщением между пользователем и продавцов (для каждого лота свой чат)

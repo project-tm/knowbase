@@ -27,7 +27,7 @@
 - параллакс и скроллоанимации: scrollmagic
 - тач/свайп ивенты: hammerjs
 - поэкранная навигация (каждый раздел на всю высоту экрана): fullpage
-- датапикеры: jquery datepicker (60 звезд) , air datepicker (630 звезд)
+- Календари: jquery datepicker (60 звезд) , air datepicker (630 звезд)
 - <a href="https://github.com/RobinHerbots/Inputmask" target="_blank">Inputmask</a>
 - выравнивание колонок по высоте - <a href="https://github.com/liabru/jquery-match-height" target="_blank">match-height</a>
 

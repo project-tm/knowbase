@@ -7,6 +7,7 @@
 - `find ~ -name "*.php" -type f -mtime -4` - поиск последних измененных файлов
 - `df -h` - место на диске
 - `du -sh */` - место в папках
+- `du -s *|sort -nr|cut -f 2-|while read a;do du -hs $a;done` - размеры файлов и папок
 
 ### [Экспорт импорт базы данных](mysqldump.md)
 - `mysqldump -u positions -p positions > positions.sql`

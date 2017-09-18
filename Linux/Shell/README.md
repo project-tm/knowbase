@@ -12,6 +12,26 @@
 - `mysqldump -u positions -p positions > positions.sql`
 - `mysql -u devpositions -p devpositions < positions.sql`
 
+### Права на файлы
+```sh
+chmod 777 -R ./
+chown -R developer ./
+
+sudo adduser bitrix5-test
+sudo usermod -d /var/www/developer/data/www/bitrix5-test.dev-z.ru -s /bin/false bitrix5-test
+sudo usermod -a -G webdevelopers bitrix5-test
+sudo chown -R devel:webdevelopers /var/www/developer/data/www/bitrix5-test.dev-z.ru
+sudo chmod -R 0777 /var/www/developer/data/www/bitrix5-test.dev-z.ru
+sudo passwd bitrix5-test
+```
+
+### Архивы
+```sh
+tar -cvzf files.tar.gz dir
+tar -xvf archive.tar.bz2 -C /path/to/folder
+tar -tf archive.tar.gz
+```
+
 ### Список повседневных команд:
 
 - [`ls`](http://www.opennet.ru/man.shtml?topic=ls&category=1) - выводит содержимое каталога

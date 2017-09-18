@@ -10,7 +10,8 @@
 - `du -s *|sort -nr|cut -f 2-|while read a;do du -hs $a;done` - размеры файлов и папок
 
 ### [Экспорт импорт базы данных](mysqldump.md)
-- `mysqldump -u positions -p positions > positions.sql`
+- `mysql -u root -p`
+- `mysqldump --complete-insert --no-create-db -u positions -p positions > positions.sql`
 - `mysql -u devpositions -p devpositions < positions.sql`
 
 ### Права на файлы

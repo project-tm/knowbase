@@ -59,6 +59,22 @@ $runtime['IS_OVERDUE_DATA'] = array(
 );
 ```
 
+```php
+$runtime['IS_OVERDUE_DATA'] = array(
+    'data_type' => 'Bitrix\Tasks\Internals\Task\LogTable',
+    'expression'=>array(
+        'RAND()'
+    ),
+    'reference' => array(
+        '=ref.TASK_ID' => 'this.ID',
+        '=ref.USER_ID' => 'this.RESPONSIBLE_ID',
+        '=ref.FIELD' => new SqlExpression('?s', 'STATUS'),
+        '=ref.TO_VALUE' => new SqlExpression('?s', self::PERORT_STATUS)
+    ),
+    'join_type' => "INNER LEFT"
+);
+```
+
 ## ORM
 ```php
 BookTable::getList(array(

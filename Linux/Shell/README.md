@@ -14,7 +14,8 @@
 - `mysql -u root -p`
 
 ### [Экспорт импорт базы данных](mysqldump.md)
-- `mysqldump --complete-insert --no-create-db -u positions -p positions > positions.sql`
+- `mysqldump u positions -p positions > positions.sql`
+- `mysqldump --complete-insert --no-create-db -u positions -p positions table > positions.sql`
 - `mysql -u devpositions -p devpositions < positions.sql`
 
 ### Права на файлы

@@ -35,6 +35,7 @@ sudo passwd bitrix5-test
 tar -cvzf files.tar.gz dir
 tar -xvf archive.tar.bz2 -C /path/to/folder
 tar -tf archive.tar.gz
+tar  -cvzf  ../site.ru.tar.gz --exclude="/path/*" --exclude="/path2/*" ./
 ```
 
 ### Список повседневных команд:

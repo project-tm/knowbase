@@ -133,7 +133,7 @@ echo "Рейтинг комментария: ".GetUserField ("BLOG_COMMENT", $Co
 
 ## Обработка 404 в init.php
 ```php
-AddEventHandler('main', 'OnEpilog', function(){
+AddEventHandler('main', 'OnEpilog', function() {
     if (defined('ERROR_404') && ERROR_404 == 'Y' && !defined('ADMIN_SECTION')) {
         global $APPLICATION;
         $APPLICATION->RestartBuffer();

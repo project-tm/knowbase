@@ -14,7 +14,9 @@
 - [Кеширование данных](#Кеширование-данных)
 - [Форматирование даты](#Форматирование-даты)
 - [Пользовательские свойства](#Пользовательские-свойства)
-- [Обработка 404 init.php](#Обработка-404-initphp)
+- [Обработка 404 init.php](#Обработка-404-в-initphp)
+- [Обработка Canonical в init.php](#Обработка-Canonical-в-initphp)
+
 
 # Bitrix шаблоны
 
@@ -129,7 +131,7 @@ echo "Рейтинг комментария: ".GetUserField ("BLOG_COMMENT", $Co
 ````
 
 
-## Обработка 404 init.php
+## Обработка 404 в init.php
 ```php
 AddEventHandler('main', 'OnEpilog', function(){
     if (defined('ERROR_404') && ERROR_404 == 'Y' && !defined('ADMIN_SECTION')) {
@@ -139,6 +141,16 @@ AddEventHandler('main', 'OnEpilog', function(){
         include $_SERVER['DOCUMENT_ROOT'] . '/404.php';
         include $_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . '/footer.php';
         exit;
+    }
+});
+```
+
+## Обработка Canonical в init.php
+```php
+AddEventHandler('main', 'OnEpilog', function() {
+    if (!empty($_REQUEST['PAGEN_1'])) {
+        global $APPLICATION;
+        $APPLICATION->SetPageProperty('canonical', "https://" . $_SERVER["HTTP_HOST"] . $APPLICATION->GetCurPage());
     }
 });
 ```

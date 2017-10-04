@@ -24,19 +24,27 @@
 - [Модуль быстрое копирование инфоблоков со свойствами](https://marketplace.1c-bitrix.ru/solutions/thebrainstech.copyiblock/)
 
 ## Полезное
-- [reCaptchaFree](https://marketplace.1c-bitrix.ru/solutions/twim.recaptchafree/)
+- [Свободное место](http://marketplace.1c-bitrix.ru/solutions/delement.freespace/)
 - [Пользовательские константы](http://marketplace.1c-bitrix.ru/solutions/ceteralabs.uservars/)
 - [CDN](http://marketplace.1c-bitrix.ru/solutions/skypark.cdn/)
 - [Авторизация по sms](https://marketplace.1c-bitrix.ru/solutions/rarus.sms4bauth/)
 - [PHP sdk для Bitrix24](https://github.com/mesilov/bitrix24-php-sdk)
 - [Настраиваемый Ajax Preloader](http://marketplace.1c-bitrix.ru/solutions/sotbit.preloader/)
+- [Дополнительные настройки](http://marketplace.1c-bitrix.ru/solutions/grain.customsettings/)
+- [Проверка Google PageSpeed Insights](http://marketplace.1c-bitrix.ru/solutions/step2use.pagespeed/)
 
 ## Безопасность
 - [Поиск троянов](https://marketplace.1c-bitrix.ru/solutions/bitrix.xscan/)
+- [reCaptchaFree](https://marketplace.1c-bitrix.ru/solutions/twim.recaptchafree/)
+- [Антиспам без CAPTCHA](https://marketplace.1c-bitrix.ru/solutions/cleantalk.antispam/)
 
 ## Инструменты
 - [Ручной запуск агентов](http://marketplace.1c-bitrix.ru/solutions/asd.agents/)
 - [Миграции](http://marketplace.1c-bitrix.ru/solutions/sprint.migration/)
+- [SQL Adminer](https://marketplace.1c-bitrix.ru/solutions/uniplug.sqladminer/)
+
+## Местоположения
+- [GeoIp Api](http://marketplace.1c-bitrix.ru/solutions/rover.geoip/)
 
 ## Пользователи
 - [Отложенное подтверждение регистрации](http://marketplace.1c-bitrix.ru/solutions/asd.confirmlater/)
@@ -62,6 +70,7 @@
 
 ### Почта
 - [Отправка почты через SMTP](https://marketplace.1c-bitrix.ru/solutions/wsrubi.smtp/)
+- [Отправка почты через SMTP с подписью DKIM](https://marketplace.1c-bitrix.ru/solutions/papacarlostudio.smtpmail/)
 - [Позволяет просматривать информацию об отправленных письмах с сайта](https://marketplace.1c-bitrix.ru/solutions/ghj2k2.mailinfo/)
 - [MailAttaching - прикрепление файлов к исходящим почтовым сообщениям](https://marketplace.1c-bitrix.ru/solutions/module.mailattaching/)
 

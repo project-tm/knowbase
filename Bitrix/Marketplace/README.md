@@ -15,9 +15,10 @@
 
 ## Обязательно к установке
 - [Агенты на кроне](https://marketplace.1c-bitrix.ru/solutions/askaron.agents/)
-
-## Seo
+- [Сeo модуль](https://bitbucket.org/project-tm/project.seo/)
 - [Яндекс.Метрика](https://marketplace.1c-bitrix.ru/solutions/artofbx.yandexmetrika/)
+- [Пользовательское свойcтво тип HTML + множественное](https://marketplace.1c-bitrix.ru/solutions/d2mg.ufhtml/)
+- [Редиректы для SEO](https://marketplace.1c-bitrix.ru/solutions/rodzeta.redirect/)
 
 ## Полезное
 - [Пользовательские константы](http://marketplace.1c-bitrix.ru/solutions/ceteralabs.uservars/)
@@ -33,7 +34,6 @@
 - [Сеть офисов на яндекс.карте](https://marketplace.1c-bitrix.ru/solutions/ithive.offices/)
 
 ## Свойства инфоблоков
-- [Пользовательское свойcтво тип HTML + множественное](https://marketplace.1c-bitrix.ru/solutions/d2mg.ufhtml/)
 - [Набор свойств](https://marketplace.1c-bitrix.ru/solutions/london.setofproperties/)
         новое свойство позволяет группировать в себе множество подсвойств со своими названиями, сортировкой, символьным кодом и настройками. 
 - [Группировка свойств](http://marketplace.1c-bitrix.ru/solutions/redsign.grupper)
@@ -56,6 +56,7 @@
 
 ## Интернет магазины
 - [Очистка корзины](http://marketplace.1c-bitrix.ru/solutions/alexkova.fileinspector/)
+- [Товар дня. Таймер убегающей халявы](https://marketplace.1c-bitrix.ru/solutions/redsign.daysarticle2/)
 - [СМС для интернет-магазина и бонусы для клиентов](http://marketplace.1c-bitrix.ru/solutions/intis.senduserssms/)
 - [Уведомление о заказе в Telegram](http://marketplace.1c-bitrix.ru/solutions/justdevelop.morder/)
 - [Статус заказа во ВКонтакте](http://marketplace.1c-bitrix.ru/solutions/happysanta.orderstatus/)

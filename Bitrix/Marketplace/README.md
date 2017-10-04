@@ -22,6 +22,7 @@
 - [Редиректы для SEO](https://marketplace.1c-bitrix.ru/solutions/rodzeta.redirect/)
 - [Инфоблоки, инструменты](https://marketplace.1c-bitrix.ru/solutions/asd.iblock/)
 - [Модуль быстрое копирование инфоблоков со свойствами](https://marketplace.1c-bitrix.ru/solutions/thebrainstech.copyiblock/)
+- [Удаление кеша по расписанию](https://marketplace.1c-bitrix.ru/solutions/webdoka.cache/)
 
 ## Полезное
 - [Свободное место](http://marketplace.1c-bitrix.ru/solutions/delement.freespace/)

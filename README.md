@@ -3,7 +3,7 @@
 
 - [Работа с базой знаний](#user-content-Работа-с-базой-знаний)
 	- [Форматирование текста](#user-content-Форматирование-текста)
-- [Git](#git)
+- [Git](Git/README.md)
 - [1С-Битрикс](Bitrix/README.md)
 - [Apache](#apache)
 - [Nginx](#nginx)
@@ -24,15 +24,6 @@
 	- [Markdown Basics](https://help.github.com/articles/markdown-basics/)
 	- [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
 	- [Writing on GitHub](https://help.github.com/articles/writing-on-github/)
-
-## Git
-- [Наш гит](Git/Gitlab/README.md)
-- [.gitignore](Git/Gitignore/README.md)
-- [Правила работы с Git](Git/Правила/README.md)
-- [Работа на проде](Git/Продакшен/README.md)
-- [Инструкция по работе с Git](Git/Инструкция/README.md)
-- [Scott Chacon - Pro Git (ru)](http://git-scm.com/book/ru) - бесплатная книга про Git
-- [Пропробуй Git](https://try.github.io) - интерактивный курс от [codeschool.com](http://codeschool.com) для [github.com](http://github.com)
 
 ## Apache
 - [Набор правил в .htaccess](Apache/.htaccess)

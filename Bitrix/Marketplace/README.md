@@ -21,6 +21,8 @@
 - [Редиректы для SEO](https://marketplace.1c-bitrix.ru/solutions/rodzeta.redirect/)
 
 ## Полезное
+- [reCaptchaFree](https://marketplace.1c-bitrix.ru/solutions/twim.recaptchafree/)
+- [Поиск троянов](https://marketplace.1c-bitrix.ru/solutions/bitrix.xscan/)
 - [Пользовательские константы](http://marketplace.1c-bitrix.ru/solutions/ceteralabs.uservars/)
 - [Миграции](http://marketplace.1c-bitrix.ru/solutions/sprint.migration/)
 - [CDN](http://marketplace.1c-bitrix.ru/solutions/skypark.cdn/)

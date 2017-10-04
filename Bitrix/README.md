@@ -2,12 +2,12 @@
 
 - [Заготовки кода](Code/README.md)
 - [D7 примеры](Code/D7/README.md)
+- [Готовые модули 1С-Битрикс](Marketplace/README.md)
+- [Создание модулей](Modules/README.md)
+- [Создание компанентов](Components/README.md)
+- [Создание шаблонов](Templates/README.md)
 - [1C-Битрикс: Виртуальная машина](#1c-Битрикс-Виртуальная-машина)
 - [Статьи](Статьи/README.md)
-- [Создание модулей](Modules/README.md)
-- [Создание шаблонов](Templates/README.md)
-- [Создание компанентов](Components/README.md)
-- [Готовые модули 1С-Битрикс](Marketplace/README.md)
 
 ## D7
 - [Работа с корзиной в битрикс D7](https://www.google.com/url?q=https%3A%2F%2Fmrcappuccino.ru%2Fblog%2Fpost%2Fwork-with-basket-bitrix-d7&sa=D&sntz=1&usg=AFQjCNGzPCd3Wrk3nvEnfRZIptQrmkAgLQ)

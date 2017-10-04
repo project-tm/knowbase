@@ -22,6 +22,8 @@
 - импорт товаров из storeland.ru (имитация авторизации админа в системе)
 - импорт из друпала (нодов, таксономии, полей, цен, пользователей с переносом паролей, заказов)
 
+### [Часто используемые компаненты](https://bitbucket.org/project-tm/project.companents)
+
 ### [Курс рубля по курсу cbr.ru](https://bitbucket.org/project-tm/project.cbr)
 ### [Модуль скидок](https://bitbucket.org/project-tm/project.discount)
 ### [Модуль заказа в 1 клик](https://bitbucket.org/project-tm/project.onclick)

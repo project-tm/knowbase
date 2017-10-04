@@ -2,8 +2,9 @@
 ===========
 
 - [Обязательно к установке](#Обязательно-к-установке)
-- [Seo](#Seo)
 - [Полезное](#Полезное)
+- [Безопасность](#Безопасность)
+- [Инструменты](#Инструменты)
 - [Карты](#Карты)
 - [Свойства инфоблоков](#Свойства-инфоблоков)
 - [Обратная связь](#Обратная-связь)
@@ -24,14 +25,22 @@
 
 ## Полезное
 - [reCaptchaFree](https://marketplace.1c-bitrix.ru/solutions/twim.recaptchafree/)
-- [Поиск троянов](https://marketplace.1c-bitrix.ru/solutions/bitrix.xscan/)
 - [Пользовательские константы](http://marketplace.1c-bitrix.ru/solutions/ceteralabs.uservars/)
-- [Миграции](http://marketplace.1c-bitrix.ru/solutions/sprint.migration/)
 - [CDN](http://marketplace.1c-bitrix.ru/solutions/skypark.cdn/)
 - [Авторизация по sms](https://marketplace.1c-bitrix.ru/solutions/rarus.sms4bauth/)
-- [Набор инструментов поддержки проектов (Конвертация строковых свойств в списочные или привязка по элементам без потери информации)](https://github.com/worksolutions/bitrix-module-tools/)
 - [PHP sdk для Bitrix24](https://github.com/mesilov/bitrix24-php-sdk)
 - [Настраиваемый Ajax Preloader](http://marketplace.1c-bitrix.ru/solutions/sotbit.preloader/)
+
+## Безопасность
+- [Поиск троянов](https://marketplace.1c-bitrix.ru/solutions/bitrix.xscan/)
+
+## Инструменты
+- [Ручной запуск агентов](http://marketplace.1c-bitrix.ru/solutions/asd.agents/)
+- [Миграции](http://marketplace.1c-bitrix.ru/solutions/sprint.migration/)
+
+## Пользователи
+- [Отложенное подтверждение регистрации](http://marketplace.1c-bitrix.ru/solutions/asd.confirmlater/)
+- [Самоудаление пользователя](http://marketplace.1c-bitrix.ru/solutions/asd.selfdelete/)
 
 ## Карты
 - [Офис на Яндекс и Гугл картах, прокладка маршрута](https://marketplace.1c-bitrix.ru/solutions/bendersay.layroutecardyago/)
@@ -46,6 +55,7 @@
         добавить символьный код элементам, у которых он не установлен 
         добавить к тэгам элемента значение одного или нескольких свойств 
         поменять местами значения 2х свойств  
+- [Набор инструментов поддержки проектов (Конвертация строковых свойств в списочные или привязка по элементам без потери информации)](https://github.com/worksolutions/bitrix-module-tools/)
 
 ## Обратная связь
 - [Заказ обратного звонка + ajax](http://marketplace.1c-bitrix.ru/solutions/vr.callback/)
@@ -60,6 +70,7 @@
 
 ## Интернет магазины
 - [Очистка корзины](http://marketplace.1c-bitrix.ru/solutions/alexkova.fileinspector/)
+- [Валюты, запрос курса из crb.ru](http://marketplace.1c-bitrix.ru/solutions/asd.currencyrate/)
 - [Товар дня. Таймер убегающей халявы](https://marketplace.1c-bitrix.ru/solutions/redsign.daysarticle2/)
 - [СМС для интернет-магазина и бонусы для клиентов](http://marketplace.1c-bitrix.ru/solutions/intis.senduserssms/)
 - [Уведомление о заказе в Telegram](http://marketplace.1c-bitrix.ru/solutions/justdevelop.morder/)

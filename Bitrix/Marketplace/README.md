@@ -23,10 +23,10 @@
 - [Инфоблоки, инструменты](https://marketplace.1c-bitrix.ru/solutions/asd.iblock/)
 - [Модуль быстрое копирование инфоблоков со свойствами](https://marketplace.1c-bitrix.ru/solutions/thebrainstech.copyiblock/)
 - [Удаление кеша по расписанию](https://marketplace.1c-bitrix.ru/solutions/webdoka.cache/)
+- [Настройки для проекта](https://marketplace.1c-bitrix.ru/solutions/askaron.settings/)
 
 ## Полезное
 - [Свободное место](http://marketplace.1c-bitrix.ru/solutions/delement.freespace/)
-- [Пользовательские константы](http://marketplace.1c-bitrix.ru/solutions/ceteralabs.uservars/)
 - [CDN](http://marketplace.1c-bitrix.ru/solutions/skypark.cdn/)
 - [Авторизация по sms](https://marketplace.1c-bitrix.ru/solutions/rarus.sms4bauth/)
 - [PHP sdk для Bitrix24](https://github.com/mesilov/bitrix24-php-sdk)

@@ -2,6 +2,7 @@
 ===========
 
 - [Обязательно к установке](#Обязательно-к-установке)
+- [Seo](#Seo)
 - [Полезное](#Полезное)
 - [Карты](#Карты)
 - [Свойства инфоблоков](#Свойства-инфоблоков)
@@ -14,6 +15,9 @@
 
 ## Обязательно к установке
 - [Агенты на кроне](https://marketplace.1c-bitrix.ru/solutions/askaron.agents/)
+
+## Seo
+- [Яндекс.Метрика](https://marketplace.1c-bitrix.ru/solutions/artofbx.yandexmetrika/)
 
 ## Полезное
 - [Пользовательские константы](http://marketplace.1c-bitrix.ru/solutions/ceteralabs.uservars/)
@@ -29,8 +33,9 @@
 - [Сеть офисов на яндекс.карте](https://marketplace.1c-bitrix.ru/solutions/ithive.offices/)
 
 ## Свойства инфоблоков
+- [Пользовательское свойcтво тип HTML + множественное](https://marketplace.1c-bitrix.ru/solutions/d2mg.ufhtml/)
 - [Набор свойств](https://marketplace.1c-bitrix.ru/solutions/london.setofproperties/)
- - новое свойство позволяет группировать в себе множество подсвойств со своими названиями, сортировкой, символьным кодом и настройками. 
+        новое свойство позволяет группировать в себе множество подсвойств со своими названиями, сортировкой, символьным кодом и настройками. 
 - [Группировка свойств](http://marketplace.1c-bitrix.ru/solutions/redsign.grupper)
 - [Дополнительные свойства инфоблоков](https://marketplace.1c-bitrix.ru/solutions/askaron.prop/ )
 - [Групповые манипуляции над значениями полей и свойств элементов инфоблока.](http://marketplace.1c-bitrix.ru/solutions/av.ibprops/)

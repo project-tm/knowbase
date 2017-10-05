@@ -152,3 +152,12 @@ AddEventHandler('main', 'OnEpilog', function() {
     }
 });
 ```
+
+## Отладка события в init.php
+```php
+AddEventHandler('iblock', 'OnBeforeIBlockElementUpdate', function() {
+    ?><pre><?= print_r(func_get_args()) ?></pre><?
+    $e = new Exception();
+    ?><pre><?= $e->getTraceAsString() ?></pre><?
+});
+```

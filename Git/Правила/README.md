@@ -26,11 +26,12 @@ Debian
 apt-get install git
 ```
 # Настройки сервера
+Проверяем версию гит `git --version`
 Всегда ставим git в папку выше директории сайта:
 ```sh 
 git init --separate-git-dir /var/www/site/data/www/site.ru.git
 ```
-или для старой версии 
+или для старой версии (1.8 и ниже)
 ```sh 
 git --git-dir=/var/www/site.ru.git --work-tree=/var/www/site.ru ini
 echo "gitdir: /var/www/site.ru.git" > .git

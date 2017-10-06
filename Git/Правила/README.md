@@ -27,6 +27,7 @@ apt-get install git
 ```
 # Настройки сервера
 Проверяем версию гит `git --version`
+
 Всегда ставим git в папку выше директории сайта:
 ```sh 
 git init --separate-git-dir /var/www/site/data/www/site.ru.git

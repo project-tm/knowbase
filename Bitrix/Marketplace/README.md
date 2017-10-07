@@ -92,3 +92,6 @@
 
 ## CRM
 - [retailCRM](http://marketplace.1c-bitrix.ru/solutions/intaro.intarocrm/)
+
+## Bitrix24
+- [Документация по REST API](https://www.bitrix24.ru/apps/index.php?app=bitrix.restapi)

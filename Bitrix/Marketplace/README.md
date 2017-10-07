@@ -13,6 +13,7 @@
 - [Интернет магазины](#Интернет-магазины)
 - [Доставка](#Доставка)
 - [Crm](#crm)
+- [Bitrix24](#bitrix24)
 
 ## Обязательно к установке
 - [Агенты на кроне](https://marketplace.1c-bitrix.ru/solutions/askaron.agents/)

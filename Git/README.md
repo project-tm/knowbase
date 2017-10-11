@@ -1,8 +1,10 @@
 ## Git
 
-### Развернут свой гитлаб 
+- Развернут свой гитлаб 
+
 http://138.201.29.85:5209
-git remote add origin ssh://git@138.201.29.85:5209/team-market/opticsite.git
+
+`git remote add origin ssh://git@138.201.29.85:5209/team-market/opticsite.git`
 
 - [.gitignore](Gitignore/README.md)
 - [Правила работы с Git](Правила/README.md)

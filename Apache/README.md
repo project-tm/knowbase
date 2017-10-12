@@ -527,4 +527,14 @@ RewriteCond %{HTTP_ACCEPT} image/webp
 RewriteCond %{DOCUMENT_ROOT}/$1.webp -f
 RewriteRule (.+)\.(jpe?g|png)$ $1.webp [T=image/webp,E=accept:1]
 ```
+
+### Подгрузка изображений с продакшена при работе на хосте разработки
+Установив предварительно переменную окружения в апаче в настройках виртуального хоста `APPLICATION_ENV=development`
+``` apacheconf
+RewriteCond %{ENV:APPLICATION_ENV} ^development$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} \.(gif|jpe?g|png)$
+RewriteRule ^(.*)$ http://example.com/$1 [R,NC,L]
+```
+
 [Источник](https://github.com/vincentorback/WebP-images-with-htaccess)

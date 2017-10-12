@@ -18,6 +18,7 @@
 - [Кастомизация формы заказа в админке битрикс D7](https://www.google.com/url?q=https%3A%2F%2Fmrcappuccino.ru%2Fblog%2Fpost%2Forder-form-customization-bitrix-d7&sa=D&sntz=1&usg=AFQjCNG--MqzJaBarE3S2cVBt4BH8LNwQw)
 - [Работа с датой и временем в битрикс D7](https://www.google.com/url?q=https%3A%2F%2Fmrcappuccino.ru%2Fblog%2Fpost%2Fd7-work-with-datetime&sa=D&sntz=1&usg=AFQjCNEvI2Qt7-rZ59CJUuMXbAzjpLp9_A)
 - [Работа с файловой системой в битрикс D7](https://www.google.com/url?q=https%3A%2F%2Fmrcappuccino.ru%2Fblog%2Fpost%2Fwork-with-file-system-bitrix-d7&sa=D&sntz=1&usg=AFQjCNEty9zvoF5_cShTZxkg4vJjaD_rmg)
+- [Постраничная навигация](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&LESSON_ID=2741&LESSON_PATH=3913.5062.5748.2741)
 
 ## 1C-Битрикс: Виртуальная машина
 - [SSL на Битрикс виртуальной машине 7 с помощью Let’s Encrypt](SSL/README.md)

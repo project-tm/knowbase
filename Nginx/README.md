@@ -25,6 +25,7 @@
 - [Прочее](#Прочее)
     - [Подзапросы после завершения](#Подзапросы-после-завершения)
     - [Распределение ресурсов между источниками](#Распределение-ресурсов-между-источниками)
+    - [Подгрузка изображений с продакшена при работе на хосте разработки](#Подгрузка-изображений-с продакшена-при-работе-на-хосте-разработки)
 - [Источники](#Источники)
 
 
@@ -243,6 +244,15 @@ ssl_protocols  TLSv1 TLSv1.1 TLSv1.2;
     ssl_ciphers 'ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-DSS-AES128-GCM-SHA256:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA:ECDHE-ECDSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-DSS-AES128-SHA256:DHE-RSA-AES256-SHA256:DHE-DSS-AES256-SHA:DHE-RSA-AES256-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:AES:CAMELLIA:DES-CBC3-SHA:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!PSK:!aECDH:!EDH-DSS-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:!KRB5-DES-CBC3-SHA';
 ssl_prefer_server_ciphers  on;
 
+```
+
+### Подгрузка изображений с продакшена при работе на хосте разработки
+Установив предварительно переменную окружения в апаче в настройках виртуального хоста `APPLICATION_ENV=development`
+```sh
+RewriteCond %{ENV:APPLICATION_ENV} ^development$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} \.(gif|jpe?g|png)$
+RewriteRule ^(.*)$ http://example.com/$1 [R,NC,L]
 ```
 
 ## Прочее

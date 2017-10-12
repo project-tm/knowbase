@@ -248,11 +248,19 @@ ssl_prefer_server_ciphers  on;
 
 ### Подгрузка изображений с продакшена при работе на хосте разработки
 Установив предварительно переменную окружения в апаче в настройках виртуального хоста `APPLICATION_ENV=development`
-```sh
-RewriteCond %{ENV:APPLICATION_ENV} ^development$
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} \.(gif|jpe?g|png)$
-RewriteRule ^(.*)$ http://example.com/$1 [R,NC,L]
+```nginx
+location @fallback {
+        # Версия с редиректом
+        # return 302 http://example.com/$uri;
+
+        # Версия с обратным проксированием
+        proxy_set_header Host         "example.com";
+        proxy_pass                    http://example.com;
+}
+location ~* ^.+.(jpg|jpeg|gif|png|ico)$ {
+        gzip                        off;
+        error_page                  404 = @fallback;
+}
 ```
 
 ## Прочее

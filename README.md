@@ -47,6 +47,7 @@
 - [Уроки JavaScript в android](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial)
 
 ## Программирование
+- [Список полезных инструментов для php разработчика](https://habrahabr.ru/post/68569/)
 - [Регулярные выражения](Regexp/README.md)
 
 ## Linux

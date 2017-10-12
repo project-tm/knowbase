@@ -246,23 +246,6 @@ ssl_prefer_server_ciphers  on;
 
 ```
 
-### Подгрузка изображений с продакшена при работе на хосте разработки
-Установив предварительно переменную окружения в апаче в настройках виртуального хоста `APPLICATION_ENV=development`
-```nginx
-location @fallback {
-        # Версия с редиректом
-        # return 302 http://example.com/$uri;
-
-        # Версия с обратным проксированием
-        proxy_set_header Host         "example.com";
-        proxy_pass                    http://example.com;
-}
-location ~* ^.+.(jpg|jpeg|gif|png|ico)$ {
-        gzip                        off;
-        error_page                  404 = @fallback;
-}
-```
-
 ## Прочее
 ### Подзапросы после завершения
 Бывают ситуации, когда вам необходимо передать запрос на другой бэкэнд **в дополнении или после его обработки**. Первый случай -  отслеживать количество завершенных загрузок путем вызова API, после того как пользователь скачал файл. Второй случай  -отслеживать запрос, к которому вы бы хотели вернуться как можно быстрее (возможно с пустым .gif) и сделать соответствующие записи в фоновом режиме.  [**post_action**](http://wiki.nginx.org/HttpCoreModule#post_action), который позволяет вам определить подзапрос и будет отклонен по окончанию текущего запроса - является [лучшим решением](http://mailman.nginx.org/pipermail/nginx/2008-April/004524.html) для обоих вариантов.
@@ -286,6 +269,25 @@ location ~* \.(eot|ttf|woff) {
   add_header Access-Control-Allow-Origin *;
 }
 ```
+
+
+### Подгрузка изображений с продакшена при работе на хосте разработки
+Установив предварительно переменную окружения в апаче в настройках виртуального хоста `APPLICATION_ENV=development`
+```nginx
+location @fallback {
+        # Версия с редиректом
+        # return 302 http://example.com/$uri;
+
+        # Версия с обратным проксированием
+        proxy_set_header Host         "example.com";
+        proxy_pass                    http://example.com;
+}
+location ~* ^.+.(jpg|jpeg|gif|png|ico)$ {
+        gzip                        off;
+        error_page                  404 = @fallback;
+}
+```
+
 ## Источники
 
 - [Nginx Official Guide](http://nginx.com/resources/admin-guide/)

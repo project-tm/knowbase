@@ -44,6 +44,11 @@
 - [Ручной запуск агентов](http://marketplace.1c-bitrix.ru/solutions/asd.agents/)
 - [Миграции](http://marketplace.1c-bitrix.ru/solutions/sprint.migration/)
 - [SQL Adminer](https://marketplace.1c-bitrix.ru/solutions/uniplug.sqladminer/)
+- [Генератор прайс-листа](http://marketplace.1c-bitrix.ru/solutions/slobel.pricegeneration/)
+- [Консольные команды - bitrix-console-tool](https://github.com/Mediahero/bitrix-console-tool)
+
+## Многоязычность
+- [Многоязычность инфоблоков](http://samokhvalov.info/blog/all/bitrix-i18n/)
 
 ## Местоположения
 - [GeoIp Api](http://marketplace.1c-bitrix.ru/solutions/rover.geoip/)
@@ -75,9 +80,6 @@
 - [Отправка почты через SMTP с подписью DKIM](https://marketplace.1c-bitrix.ru/solutions/papacarlostudio.smtpmail/)
 - [Позволяет просматривать информацию об отправленных письмах с сайта](https://marketplace.1c-bitrix.ru/solutions/ghj2k2.mailinfo/)
 - [MailAttaching - прикрепление файлов к исходящим почтовым сообщениям](https://marketplace.1c-bitrix.ru/solutions/module.mailattaching/)
-
-## Контент
-- [Генератор прайс-листа](http://marketplace.1c-bitrix.ru/solutions/slobel.pricegeneration/)
 
 ## Интернет магазины
 - [Очистка корзины](http://marketplace.1c-bitrix.ru/solutions/alexkova.fileinspector/)

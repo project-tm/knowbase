@@ -42,7 +42,6 @@
 - [Антиспам без CAPTCHA](https://marketplace.1c-bitrix.ru/solutions/cleantalk.antispam/)
 
 ## Инструменты
-- [Ручной запуск агентов](http://marketplace.1c-bitrix.ru/solutions/asd.agents/)
 - [Миграции](http://marketplace.1c-bitrix.ru/solutions/sprint.migration/)
 - [SQL Adminer](https://marketplace.1c-bitrix.ru/solutions/uniplug.sqladminer/)
 - [Генератор прайс-листа](http://marketplace.1c-bitrix.ru/solutions/slobel.pricegeneration/)

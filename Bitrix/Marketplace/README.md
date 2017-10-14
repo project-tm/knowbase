@@ -17,6 +17,7 @@
 
 ## Обязательно к установке
 - [Агенты на кроне](https://marketplace.1c-bitrix.ru/solutions/askaron.agents/)
+- [Ручной запуск агентов](http://marketplace.1c-bitrix.ru/solutions/asd.agents/)
 - [Сeo модуль](https://bitbucket.org/project-tm/project.seo/)
 - [Яндекс.Метрика](https://marketplace.1c-bitrix.ru/solutions/artofbx.yandexmetrika/)
 - [Пользовательское свойcтво тип HTML + множественное](https://marketplace.1c-bitrix.ru/solutions/d2mg.ufhtml/)

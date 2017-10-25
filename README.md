@@ -5,6 +5,7 @@
 	- [Форматирование текста](#user-content-Форматирование-текста)
 - [Git](Git/README.md)
 - [1С-Битрикс](Bitrix/README.md)
+- [Отладка](Debug/README.md)
 - [Apache](#apache)
 - [Nginx](#nginx)
 - [Инструменты](tools/README.md)

@@ -1,6 +1,9 @@
 # Отладка
 
-## Стекс вызова
+- [Стек вызова](#Стек-вызова)
+- [file_var_dump](#file_var_dump)
+
+## Стек вызова
 ```php
 $e = new Exception();
 ?><pre><?= $e->getTraceAsString() ?></pre><?

@@ -1,4 +1,10 @@
-# отладка
+# Отладка
+
+## Стекс вызова
+```php
+$e = new Exception();
+?><pre><?= $e->getTraceAsString() ?></pre><?
+```
 
 ## file_var_dump
 ```php

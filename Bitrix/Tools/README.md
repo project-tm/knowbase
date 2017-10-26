@@ -1,10 +1,9 @@
-# Инструментарий 
-https://bitbucket.org/project-tm/project.core.v2/
+# (Инструментарий](https://bitbucket.org/project-tm/project.core.v2)
 
 - [Настройка](#Настройка)
-- [Отладка](#Отладка)
 - [Кеширование данных](#Кеширование-данных)
-- [Ресайтинг фото, Ватермарки](#Ресайтинг-фото-ватермарки)
+- [Ресайтинг фото, Ватермарки](#Ресайтинг-фото-Ватермарки)
+- [Отладка](#Отладка)
 
 ## Настройка
 ```php
@@ -25,26 +24,6 @@ Project\Tools\Utility\Config::set(array(
 pre(Project\Tools\Config::isDebug());
 pre(Project\Tools\Config::isCache());
 pre(Project\Tools\Config::warermarkPath());
-```
-
-## Отладка
-```php
-вывод данных для админа
-pre(); - данные
-preDate(); - метка даты
-preTrace(); - трассировка вывоза
-preMemory(); - потребляемая память
-preDebug(); - запись в файл
-```
-
-## Ресайтинг фото, Ватермарки
-```php
-if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
-    $item['SRC'] = Project\Tools\Utility\Image::resize($item['ID'], 200, 200);
-}; 
-if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
-    $item['SRC'] = Project\Tools\Utility\Image::watermark($item['ID'], 200, 200, '/images/warermark.png');
-};
 ```
 
 ## Кеширование данных
@@ -68,4 +47,24 @@ if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
         return false;
     });
 }
+```
+
+## Отладка
+```php
+вывод данных для админа
+pre(); - данные
+preDate(); - метка даты
+preTrace(); - трассировка вывоза
+preMemory(); - потребляемая память
+preDebug(); - запись в файл
+```
+
+## Ресайтинг фото, Ватермарки
+```php
+if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
+    $item['SRC'] = Project\Tools\Utility\Image::resize($item['ID'], 200, 200);
+};
+if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
+    $item['SRC'] = Project\Tools\Utility\Image::watermark($item['ID'], 200, 200, '/images/warermark.png');
+};
 ```

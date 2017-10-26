@@ -1,4 +1,4 @@
-# (Инструментарий](https://bitbucket.org/project-tm/project.core.v2)
+# [Инструментарий](https://bitbucket.org/project-tm/project.core.v2)
 
 - [Настройка](#Настройка)
 - [Кеширование данных](#Кеширование-данных)

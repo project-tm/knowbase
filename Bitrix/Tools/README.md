@@ -37,24 +37,17 @@ preMemory(); - потребляемая память
 preDebug(); - запись в файл
 ```
 
-## Ресайтинг фото
-
+## Ресайтинг фото, Ватермарки
 ```php
 if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
     $item['SRC'] = Project\Tools\Utility\Image::resize($item['ID'], 200, 200);
 }; 
-```
-
-## Ватермарки
-```php
 if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
     $item['SRC'] = Project\Tools\Utility\Image::watermark($item['ID'], 200, 200, '/images/warermark.png');
 };
-
 ```
 
 ## Кеширование данных
-
 ```php
 if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
     Project\Tools\Utility\Cache::get(array('game', $gameId), function() use($gameId) {

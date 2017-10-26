@@ -10,6 +10,7 @@
 
 ## [Bitrix](#bitrix-1)
 - [Кеширование данных](#Кеширование-данных)
+- [Получить данные фото](#Получить-данные-фото)
 - [Форматирование даты](#Форматирование-даты)
 - [Пользовательские свойства](#Пользовательские-свойства)
 - [Обработка 404 init.php](#Обработка-404-в-initphp)
@@ -100,6 +101,16 @@ if (Bitrix\Main\Loader::includeModule('project.core')) {
         return false;
     });
 }
+```
+
+### Получить данные фото
+```php
+Iblock\Component\Tools::getFieldImageData(
+        $arItem,
+        array('PREVIEW_PICTURE', 'DETAIL_PICTURE', 'PICTURE'),
+        Iblock\Component\Tools::IPROPERTY_ENTITY_SECTION (IPROPERTY_ENTITY_ELEMENT),
+        'IPROPERTY_VALUES'
+);
 ```
 
 ## Форматирование даты

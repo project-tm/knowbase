@@ -1,6 +1,7 @@
 ## 1С-Битрикс
 
 - [Заготовки кода](Code/README.md)
+- [Инструментарий](Tools/README.md)
 - [Wiki по битриксу](Wiki/README.md)
 - [D7 примеры](Code/D7/README.md)
 - [Готовые модули 1С-Битрикс](Marketplace/README.md)

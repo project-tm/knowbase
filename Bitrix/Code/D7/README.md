@@ -3,7 +3,6 @@
 - [D7 getList в mysql](#d7-getlist-в-mysql)
 - [Генерация запроса в select](#Генерация-запроса-в-select)
 - [Связывать таблицы](#Связывать-таблицы)
-- [Получить данные фото](#Получить-данные-фото)
 - [ORM](#orm)
 
 
@@ -57,16 +56,6 @@ $runtime['IS_OVERDUE_DATA'] = array(
         '=ref.TO_VALUE' => new SqlExpression('?s', self::PERORT_STATUS)
     ),
     'join_type' => "INNER LEFT"
-);
-```
-
-### Получить данные фото
-```php
-Iblock\Component\Tools::getFieldImageData(
-        $arItem,
-        array('PREVIEW_PICTURE', 'DETAIL_PICTURE', 'PICTURE'),
-        Iblock\Component\Tools::IPROPERTY_ENTITY_SECTION (IPROPERTY_ENTITY_ELEMENT),
-        'IPROPERTY_VALUES'
 );
 ```
 

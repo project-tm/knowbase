@@ -20,6 +20,7 @@
 - [Ручной запуск агентов](http://marketplace.1c-bitrix.ru/solutions/asd.agents/)
 - [Сeo модуль](https://bitbucket.org/project-tm/project.seo/)
 - [Яндекс.Метрика](https://marketplace.1c-bitrix.ru/solutions/artofbx.yandexmetrika/)
+- [Оптимизация изображений через TinyPNG на лету](http://marketplace.1c-bitrix.ru/solutions/sva.tinypng/)
 - [Пользовательское свойcтво тип HTML + множественное](https://marketplace.1c-bitrix.ru/solutions/d2mg.ufhtml/)
 - [Редиректы для SEO](https://marketplace.1c-bitrix.ru/solutions/rodzeta.redirect/)
 - [Инфоблоки, инструменты](https://marketplace.1c-bitrix.ru/solutions/asd.iblock/)

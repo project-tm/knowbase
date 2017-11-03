@@ -10,5 +10,5 @@
 ## Корпаративный сайт
 - [Колибри: Корппро](https://marketplace.1c-bitrix.ru/solutions/kolibri.corppro/)
 
-## не используем
+## Не используем
 - [Effortless Light - Корпоративный, адаптивный сайт](http://marketplace.1c-bitrix.ru/solutions/sergeland.effortlesslight/)

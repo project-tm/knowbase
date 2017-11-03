@@ -5,7 +5,7 @@
 
 ## Каталог
 - [Master: готовый шаблон корпоративного сайта](https://marketplace.1c-bitrix.ru/solutions/redsign.master/)
-- [Монополия - корпоративный сайт | Магазин на старте с корзиной](https://marketplace.1c-bitrix.ru/solutions/redsign.monopoly/)
+- [Монополия - корпоративный сайт - Магазин на старте с корзиной](https://marketplace.1c-bitrix.ru/solutions/redsign.monopoly/)
 - [Alpha - Адаптивный корпоративный сайт с каталогом](https://marketplace.1c-bitrix.ru/solutions/bizsolutions.alpha/)
 
 ## Корпаративный сайт

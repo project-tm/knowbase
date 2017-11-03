@@ -5,6 +5,7 @@
 - [Wiki по битриксу](Wiki/README.md)
 - [D7 примеры](Code/D7/README.md)
 - [Готовые модули 1С-Битрикс](Marketplace/README.md)
+- [Готовые шаблоны 1С-Битрикс](Marketplace-templates/README.md)
 - [Создание модулей](Modules/README.md)
 - [Создание компанентов](Components/README.md)
 - [Создание шаблонов](Templates/README.md)

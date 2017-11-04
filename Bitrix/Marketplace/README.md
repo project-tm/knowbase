@@ -91,6 +91,7 @@
 - [СМС для интернет-магазина и бонусы для клиентов](http://marketplace.1c-bitrix.ru/solutions/intis.senduserssms/)
 - [Уведомление о заказе в Telegram](http://marketplace.1c-bitrix.ru/solutions/justdevelop.morder/)
 - [Статус заказа во ВКонтакте](http://marketplace.1c-bitrix.ru/solutions/happysanta.orderstatus/)
+- [Звездная оценка товара](https://marketplace.1c-bitrix.ru/solutions/insmart.votestars/)
 
 ## Доставка
 - [Интеграция с DPD](https://marketplace.1c-bitrix.ru/solutions/ipol.dpd/)

@@ -51,10 +51,10 @@ if (defined('Project\Tools\IS_START')) {
 
 ## Ресайтинг фото, Ватермарки
 ```php
-if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
+if (defined('Project\Tools\IS_START')) {
     $item['SRC'] = Project\Tools\Utility\Image::resize($item['ID'], 200, 200);
 };
-if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
+if (defined('Project\Tools\IS_START')) {
     $item['SRC'] = Project\Tools\Utility\Image::watermark($item['ID'], 200, 200, '/images/warermark.png');
 };
 ```
@@ -62,6 +62,9 @@ if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
 ## Отладка
 ```php
 вывод данных для админа
+if (defined('Project\Tools\IS_START')) {
+    pre();
+};
 pre(); - данные
 preDate(); - метка даты
 preTrace(); - трассировка вывоза

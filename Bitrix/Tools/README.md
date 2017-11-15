@@ -28,7 +28,7 @@ pre(Project\Tools\Config::warermarkPath());
 
 ## Кеширование данных
 ```php
-if (Bitrix\Main\Loader::includeModule('project.core.v2')) {
+if (defined('Project\Tools\IS_START')) {
     Project\Tools\Utility\Cache::get(array('game', $gameId), function() use($gameId) {
         $arSelect = Array("ID", "NAME", 'PROPERTY_SELLER');
         $arFilter = Array("IBLOCK_ID" => Game\Config::DZHO_IBLOCK, "ID" => $gameId);

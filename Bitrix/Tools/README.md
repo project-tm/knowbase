@@ -71,3 +71,21 @@ preTrace(); - трассировка вывоза
 preMemory(); - потребляемая память
 preDebug(); - запись в файл
 ```
+
+## Получение всех товаров, которые имеют скидку
+```php
+if (defined('Project\Tools\IS_START')) {
+    $searchFilter = array(
+        "=ID" => Project\Tools\Sale\Discount::getProductsList(),
+    );
+}
+$APPLICATION->IncludeComponent(
+    "bitrix:catalog.section",
+    "template",
+    array(
+        ...   
+        "FILTER_NAME" => "searchFilter",
+        ...
+    ),
+);
+```

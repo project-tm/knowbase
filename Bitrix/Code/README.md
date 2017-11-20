@@ -16,6 +16,7 @@
 - [Обработка Canonical в init.php](#Обработка-canonical-в-initphp)
 - [Отладка события в init.php](#Отладка-события-в-initphp)
 
+## [Bitrix магазин](#bitrix-магазин)
 
 # Bitrix шаблоны
 

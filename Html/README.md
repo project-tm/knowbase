@@ -9,6 +9,9 @@
 - Сервис по тестированию регулярных выражений - https://regex101.com/
 - Оптимизация изображений - https://tinypng.com/
 
+# Ховеры
+- эффеты ховеров - http://gudh.github.io/ihover/dist/index.html
+
 # Полифиллы
 - object-fit, object-position - https://github.com/bfred-it/object-fit-images
 - фикс поведения vw и vh в разных браузерах - https://github.com/rodneyrehm/viewport-units-buggyfill

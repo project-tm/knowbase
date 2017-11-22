@@ -82,10 +82,10 @@ function addValidateRules() {
 
 ### Получить данные фото
 ```php
-Iblock\Component\Tools::getFieldImageData(
+Bitrix\Iblock\Component\Tools::getFieldImageData(
         $arItem,
         array('PREVIEW_PICTURE', 'DETAIL_PICTURE', 'PICTURE'),
-        Iblock\Component\Tools::IPROPERTY_ENTITY_SECTION (IPROPERTY_ENTITY_ELEMENT),
+        Bitrix\Iblock\Component\Tools::IPROPERTY_ENTITY_SECTION (IPROPERTY_ENTITY_ELEMENT),
         'IPROPERTY_VALUES'
 );
 ```

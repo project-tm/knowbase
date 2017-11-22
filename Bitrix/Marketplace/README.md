@@ -62,7 +62,8 @@
 
 ## Карты
 - [Офис на Яндекс и Гугл картах, прокладка маршрута](https://marketplace.1c-bitrix.ru/solutions/bendersay.layroutecardyago/)
-- [Сеть офисов на яндекс.карте](https://marketplace.1c-bitrix.ru/solutions/ithive.offices/)
+- [Умные списки или карта филиалов](https://marketplace.1c-bitrix.ru/solutions/gurevich.dealermap/)
+- [Интерактивная карта офисов, объектов на Яндекс.Карте](https://marketplace.1c-bitrix.ru/solutions/kssite.jksmapoffices/)
 
 ## Свойства инфоблоков
 - [Набор свойств](https://marketplace.1c-bitrix.ru/solutions/london.setofproperties/)

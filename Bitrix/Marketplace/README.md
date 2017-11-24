@@ -2,6 +2,7 @@
 ===========
 
 - [Обязательно к установке](#Обязательно-к-установке)
+- [Оптимизация изображений](#Оптимизация-изображений)
 - [Полезное](#Полезное)
 - [Безопасность](#Безопасность)
 - [Инструменты](#Инструменты)
@@ -27,6 +28,9 @@
 - [Модуль быстрое копирование инфоблоков со свойствами](https://marketplace.1c-bitrix.ru/solutions/thebrainstech.copyiblock/)
 - [Удаление кеша по расписанию](https://marketplace.1c-bitrix.ru/solutions/webdoka.cache/)
 - [Настройки для проекта](https://marketplace.1c-bitrix.ru/solutions/askaron.settings/)
+
+## Оптимизация изображений
+- [Модуль сжатия изображений, автоматическая оптимизации картинок под Google PageSpeed Insights](http://marketplace.1c-bitrix.ru/solutions/artrix.imageoptimizer/?sphrase_id=70267817#tab-about-link)
 
 ## Полезное
 - [Свободное место](http://marketplace.1c-bitrix.ru/solutions/delement.freespace/)

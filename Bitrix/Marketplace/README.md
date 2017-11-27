@@ -23,7 +23,6 @@
 - [Яндекс.Метрика](https://marketplace.1c-bitrix.ru/solutions/artofbx.yandexmetrika/)
 - [Оптимизация изображений через TinyPNG на лету](http://marketplace.1c-bitrix.ru/solutions/sva.tinypng/)
 - [Пользовательское свойcтво тип HTML + множественное](https://marketplace.1c-bitrix.ru/solutions/d2mg.ufhtml/)
-- [Редиректы для SEO](https://marketplace.1c-bitrix.ru/solutions/rodzeta.redirect/)
 - [Инфоблоки, инструменты](https://marketplace.1c-bitrix.ru/solutions/asd.iblock/)
 - [Модуль быстрое копирование инфоблоков со свойствами](https://marketplace.1c-bitrix.ru/solutions/thebrainstech.copyiblock/)
 - [Удаление кеша по расписанию](https://marketplace.1c-bitrix.ru/solutions/webdoka.cache/)

@@ -22,6 +22,7 @@
 
 # Плагины
 - [сообщение для старых браузеров от Яндекса](https://tech.yandex.ru/browser/constructor/)
+- [фильтры](https://www.kunkalabs.com/mixitup/)
 - слайдер - <a href="http://kenwheeler.github.io/slick/" target='_blank'>slick</a> (jquery) swiper (vanilla)
 - попапы - <a href="http://fancyapps.com/fancybox/3/" target="_blank">fancybox3</a>
 - селекты - select2

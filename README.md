@@ -16,7 +16,7 @@
 - [Программирование](#Программирование)
 - [Linux](#linux)
 - [Тестирование](Тестирование/README.md)
-- [Синтаксис PHP 5.3, 5.4, 5.5, 5.6, 7](https://wp-kama.ru/id_6310/sintaksis-php-5-3-5-4-5-5-5-6-7-chto-novogo.htm)
+- [Синтаксис PHP 5.3, 5.4, 5.5, 5.6, 7](https://wp-kama.ru/id_6310/sintaksis-php-5-3-5-4-5-5-5-6-7-chto-novogo.html)
 
 ## Работа с базой знаний
 

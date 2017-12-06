@@ -5,11 +5,9 @@
 - [Генератор админок](https://github.com/DigitalWand/digitalwand.admin_helper)
 - [Рабочий пример](https://github.com/niksamokhvalov/demo.adminhelper)
 
-### [Api для сайта, ***ставим обязательно****](https://bitbucket.org/project-tm/project.core)
-- отладка
-- кеширование данных
-- ресайсинг и ватермарки
-- определениме города
+### [Ajax враппер для списков, форм - project.ajax:wrapper](https://bitbucket.org/project-tm/project.ajax)
+- [фильтры формы, пагинация](http://develop.dev-tm.ru/ajax/)
+- [форма с инфоблока](http://develop.dev-tm.ru/form/
 
 ### [Сео модуль](https://bitbucket.org/project-tm/project.seo/)
 - Загружаются мета теги (редиректы, тексты) из csv

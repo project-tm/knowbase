@@ -13,3 +13,4 @@
 
 ## Не используем
 - [Effortless Light - Корпоративный, адаптивный сайт](http://marketplace.1c-bitrix.ru/solutions/sergeland.effortlesslight/)
+- [Аспро: Стройка - корпоративный сайт строительной компании](http://marketplace.1c-bitrix.ru/solutions/aspro.stroy/)

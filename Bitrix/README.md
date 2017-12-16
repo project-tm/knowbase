@@ -23,5 +23,4 @@
 - [Постраничная навигация](https://dev.1c-bitrix.ru/learning/course/?COURSE_ID=43&LESSON_ID=2741&LESSON_PATH=3913.5062.5748.2741)
 
 ## 1C-Битрикс: Виртуальная машина
-- [SSL на Битрикс виртуальной машине 7 с помощью Let’s Encrypt](SSL/README.md)
 - [Бесплатный ssl-сертификат для интернет магазина на Битрикс и коробки Битрикс24](https://dev.1c-bitrix.ru/community/webdev/user/15916/blog/21311/)

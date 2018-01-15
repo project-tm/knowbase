@@ -52,6 +52,7 @@
 - [Современный учебник Javascript](https://learn.javascript.ru/)
 	- [Уроки JavaScript](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial) - тоже, но как приложение android
 - [Руководство по React](https://metanit.com/web/react/)
+- [Руководство по Angular](https://metanit.com/web/angular2/)
 - [Fancybox 2](http://fancyapps.com/fancybox/)
 
 ## Программирование

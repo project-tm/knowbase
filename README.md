@@ -49,9 +49,9 @@
 - [Тестирование](Html/Тестирование/README.md)
 
 ## JavaScript
-- [Уроки JavaScript в android](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial)
-- [Руководство по React](https://metanit.com/web/react/)
 - [Современный учебник Javascript](https://learn.javascript.ru/)
+	- тоже но как приложение android[Уроки JavaScript](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial)
+- [Руководство по React](https://metanit.com/web/react/)
 - [Fancybox 2](http://fancyapps.com/fancybox/)
 
 ## Программирование

@@ -50,7 +50,7 @@
 
 ## JavaScript
 - [Современный учебник Javascript](https://learn.javascript.ru/)
-	- [Уроки JavaScript](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial) - тоже но как приложение android
+	- [Уроки JavaScript](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial) - тоже, но как приложение android
 - [Руководство по React](https://metanit.com/web/react/)
 - [Fancybox 2](http://fancyapps.com/fancybox/)
 

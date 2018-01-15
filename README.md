@@ -67,7 +67,6 @@
 
 ## Базы данных
 - [Онлайн-руководство по MongoDB](https://metanit.com/nosql/mongodb/)
-- [Руководство по MS SQL Server 2017](https://metanit.com/sql/sqlserver/)
 - [Руководство по проектированию реляционных баз данных](https://metanit.com/sql/tutorial/)
 
 ## Программирование

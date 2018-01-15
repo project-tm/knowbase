@@ -53,12 +53,21 @@
 - [Современный учебник Javascript](https://learn.javascript.ru/)
 	- [Уроки JavaScript](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial) - тоже, но как приложение android
 - [Руководство по React](https://metanit.com/web/react/)
-- [Руководство по Angular](https://metanit.com/web/angular2/)
+- [Руководство по Angular 2+](https://metanit.com/web/angular2/)
+- [Руководство по AngularJS](https://metanit.com/web/angular/)
 - [Руководство по Node.js](https://metanit.com/web/nodejs/)
+- [Руководство по TypeScript](https://metanit.com/web/typescript/)
+- [Онлайн-книга 'Изучаем Ext JS 4'](https://metanit.com/web/extjs/)
 - [Fancybox 2](http://fancyapps.com/fancybox/)
 
-## Go
+## Другие языки
 - [Руководство по языку Go](https://metanit.com/go/tutorial/)
+- [Kotlin](https://metanit.com/kotlin/tutorial/)
+
+## Базы данных
+- [Онлайн-руководство по MongoDB](https://metanit.com/nosql/mongodb/)
+- [Руководство по MS SQL Server 2017](https://metanit.com/sql/sqlserver/)
+- [Руководство по проектированию реляционных баз данных](https://metanit.com/sql/tutorial/)
 
 ## Программирование
 - [Список полезных инструментов для php разработчика](https://habrahabr.ru/post/68569/)

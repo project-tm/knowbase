@@ -14,6 +14,7 @@
 - [Оптимизация](Оптимизация/README.md)
 - [Верстка](#Верстка)
 - [JavaScript](#javascript)
+- [Go](#go)
 - [Программирование](#Программирование)
 - [Linux](#linux)
 - [Тестирование](Тестирование/README.md)
@@ -53,7 +54,11 @@
 	- [Уроки JavaScript](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial) - тоже, но как приложение android
 - [Руководство по React](https://metanit.com/web/react/)
 - [Руководство по Angular](https://metanit.com/web/angular2/)
+- [Руководство по Node.js](https://metanit.com/web/nodejs/)
 - [Fancybox 2](http://fancyapps.com/fancybox/)
+
+## Go
+- [Руководство по языку Go](https://metanit.com/go/tutorial/)
 
 ## Программирование
 - [Список полезных инструментов для php разработчика](https://habrahabr.ru/post/68569/)

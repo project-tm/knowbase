@@ -63,7 +63,7 @@
 
 ## Другие языки
 - [Руководство по языку Go](https://metanit.com/go/tutorial/)
-- [Kotlin](https://metanit.com/kotlin/tutorial/)
+- [Руководство по языку Kotlin](https://metanit.com/kotlin/tutorial/)
 
 ## Базы данных
 - [Онлайн-руководство по MongoDB](https://metanit.com/nosql/mongodb/)

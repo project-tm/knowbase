@@ -5,6 +5,9 @@
 - [Генератор админок](https://github.com/DigitalWand/digitalwand.admin_helper)
 - [Рабочий пример](https://github.com/niksamokhvalov/demo.adminhelper)
 
+### Rest-сервер
+- [Rest-cервер с чпу, и с мастером создания компанентов](https://github.com/DigitalWand/mvc.base)
+
 ### [Ajax враппер для списков, форм - project.ajax:wrapper](https://bitbucket.org/project-tm/project.ajax)
 - [фильтры формы, пагинация](http://develop.dev-tm.ru/ajax/)
 - [форма с инфоблока](http://develop.dev-tm.ru/form/)

@@ -57,7 +57,7 @@
 - [Руководство по Angular 2+](https://metanit.com/web/angular2/)
 - [Руководство по AngularJS](https://metanit.com/web/angular/)
 - [Руководство по Node.js](https://metanit.com/web/nodejs/)
-- [Базовый курс npm][https://urvanov.ru/2017/05/02/базовый-курс-npm/]
+- [Базовый курс npm](https://urvanov.ru/2017/05/02/базовый-курс-npm/)
 - [Руководство по TypeScript](https://metanit.com/web/typescript/)
 - [Онлайн-книга 'Изучаем Ext JS 4'](https://metanit.com/web/extjs/)
 - [Fancybox 2](http://fancyapps.com/fancybox/)

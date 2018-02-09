@@ -3,7 +3,7 @@
 	- [Уроки JavaScript](https://play.google.com/store/apps/details?id=com.reedbook.jstutorial) - тоже, но как приложение android
 - [React](#react)
 - [AngularJS](#angularJS)
-- [Node.JS](#Node.JS)
+- [Node.JS](#nodejs)
 - [Руководство по TypeScript](https://metanit.com/web/typescript/)
 - [Онлайн-книга 'Изучаем Ext JS 4'](https://metanit.com/web/extjs/)
 - [Fancybox 2](http://fancyapps.com/fancybox/)

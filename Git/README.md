@@ -1,6 +1,6 @@
 ## Git
 
-- [Развернут свой гитлаб](http://138.201.29.85:9228)
+- [Развернут свой гитлаб](http://git.dev-tm.ru/)
 `curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
 yum install gitlab-ce
 gitlab-ctl reconfigure

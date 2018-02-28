@@ -6,7 +6,7 @@ yum install gitlab-ce
 gitlab-ctl reconfigure
 `
 
-`git remote add origin ssh://git@138.201.29.85:5209/team-market/opticsite.git`
+`git remote add origin ssh://git@git.dev-tm.ru/team-market/opticsite.git`
 - [.gitignore](Gitignore/README.md)
 - [Правила работы с Git](Правила/README.md)
 - [Работа на проде](Продакшен/README.md)

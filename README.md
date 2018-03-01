@@ -65,3 +65,4 @@
 ## Linux
 - [Командная строка](Linux/Shell/README.md)
 - [Advanced Bash-Scripting Guide](http://www.opennet.ru/docs/RUS/bash_scripting_guide/) - подробный мануал по использованию командной строки linux, а так же написание собственных сценариев
+- [Создание сервисов - Runit](Linux/Runit/README.md)

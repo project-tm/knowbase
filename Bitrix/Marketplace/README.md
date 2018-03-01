@@ -93,6 +93,7 @@
 - [MailAttaching - прикрепление файлов к исходящим почтовым сообщениям](https://marketplace.1c-bitrix.ru/solutions/module.mailattaching/)
 
 ## Интернет магазины
+- (Умный экспорт товаров в торговые порталы)(http://marketplace.1c-bitrix.ru/solutions/api.export/)
 - [Очистка корзины](http://marketplace.1c-bitrix.ru/solutions/alexkova.fileinspector/)
 - [Валюты, запрос курса из crb.ru](http://marketplace.1c-bitrix.ru/solutions/asd.currencyrate/)
 - [Товар дня. Таймер убегающей халявы](https://marketplace.1c-bitrix.ru/solutions/redsign.daysarticle2/)

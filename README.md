@@ -64,7 +64,7 @@
 - [Список полезных инструментов для php разработчика](https://habrahabr.ru/post/68569/)
 - [Регулярные выражения](Regexp/README.md)
 - [Паттерны](https://habrahabr.ru/post/210288/)
-- ()
+- [Основы объектно-ориентированного программирования](https://professorweb.ru/my/csharp/charp_theory/level3/3_1.php)
 
 ## Linux
 - [Командная строка](Linux/Shell/README.md)

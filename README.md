@@ -52,15 +52,19 @@
 
 ## Другие языки
 - [Руководство по языку Go](https://metanit.com/go/tutorial/)
+- [Паттерны на Go](https://github.com/AlexanderGrom/go-patterns)
 - [Руководство по языку Kotlin](https://metanit.com/kotlin/tutorial/)
 
 ## Базы данных
 - [Онлайн-руководство по MongoDB](https://metanit.com/nosql/mongodb/)
 - [Руководство по проектированию реляционных баз данных](https://metanit.com/sql/tutorial/)
+- [Объяснение SQL объединений JOIN: LEFT/RIGHT/INNER/OUTER](http://www.skillz.ru/dev/php/article-Obyasnenie_SQL_obedinenii_JOIN_INNER_OUTER.html)
 
 ## Программирование
 - [Список полезных инструментов для php разработчика](https://habrahabr.ru/post/68569/)
 - [Регулярные выражения](Regexp/README.md)
+- [Паттерны](https://habrahabr.ru/post/210288/)
+- ()
 
 ## Linux
 - [Командная строка](Linux/Shell/README.md)

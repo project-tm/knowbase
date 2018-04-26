@@ -57,6 +57,9 @@
 ## Прочие инструменты
 - [Инструменты для веб анализа, онлайн калькуляторы, конвертеры, генераторы](https://ciox.ru/)
 - [Валидатор микроразметки](https://webmaster.yandex.ru/tools/microtest/)
+- [Просмотр json данных](http://jsonviewer.stack.hu/)
+- [Онлайн калькулятор unix time stamp](http://www.bl2.ru/programing/timestamp.html)
+- [Для хранения паролей](https://www.enpass.io/)
 
 ## Плагины для браузера
 - [смена кодировки](https://chrome.google.com/webstore/detail/bpojelgakakmcfmjfilgdlmhefphglae)

@@ -6,6 +6,7 @@
 - [Онлайн Markdown редактор](http://dillinger.io/)
 - [JSON Editor Online](http://jsoneditoronline.org/)
 - [Облачный IDE](https://c9.io/)
+- [Плагины для браузера](#Плагины-для-браузера)
 
 ## Графические редакторы
 - [Pixlr](https://pixlr.com/editor/)
@@ -57,3 +58,6 @@
 - [Инструменты для веб анализа, онлайн калькуляторы, конвертеры, генераторы](https://ciox.ru/)
 - [Валидатор микроразметки](https://webmaster.yandex.ru/tools/microtest/)
 
+## Плагины для браузера
+- [смена кодировки](https://chrome.google.com/webstore/detail/bpojelgakakmcfmjfilgdlmhefphglae)
+- Работ с soap-сервером(https://chrome.google.com/webstore/detail/oebpmncolmhiapingjaagmapififiakb)

@@ -60,4 +60,4 @@
 
 ## Плагины для браузера
 - [смена кодировки](https://chrome.google.com/webstore/detail/bpojelgakakmcfmjfilgdlmhefphglae)
-- Работ с soap-сервером(https://chrome.google.com/webstore/detail/oebpmncolmhiapingjaagmapififiakb)
+- [Работ с soap-сервером](https://chrome.google.com/webstore/detail/oebpmncolmhiapingjaagmapififiakb)

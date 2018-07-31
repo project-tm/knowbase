@@ -41,6 +41,7 @@
 - [Настраиваемый Ajax Preloader](http://marketplace.1c-bitrix.ru/solutions/sotbit.preloader/)
 - [Дополнительные настройки](http://marketplace.1c-bitrix.ru/solutions/grain.customsettings/)
 - [Проверка Google PageSpeed Insights](http://marketplace.1c-bitrix.ru/solutions/step2use.pagespeed/)
+- [Форматирование даты и времени (Вчера 20:47 Послезавтра 20:54)](http://marketplace.1c-bitrix.ru/solutions/grain.datetools/)
 
 ## Безопасность
 - [Поиск троянов](https://marketplace.1c-bitrix.ru/solutions/bitrix.xscan/)

@@ -34,7 +34,6 @@
 
 ## Полезное
 - [Свободное место](http://marketplace.1c-bitrix.ru/solutions/delement.freespace/)
-- [Свободное место](http://marketplace.1c-bitrix.ru/solutions/delement.freespace/)
 - [Просмотри системы контроля версий через битрикс](http://marketplace.1c-bitrix.ru/solutions/karudo.vcs/)
 - [CDN](http://marketplace.1c-bitrix.ru/solutions/skypark.cdn/)
 - [Авторизация по sms](https://marketplace.1c-bitrix.ru/solutions/rarus.sms4bauth/)
@@ -49,6 +48,7 @@
 - [Антиспам без CAPTCHA](https://marketplace.1c-bitrix.ru/solutions/cleantalk.antispam/)
 
 ## Инструменты
+- [Заполнения инфоблока тестовыми данными](http://marketplace.1c-bitrix.ru/solutions/grain.flood/)
 - [Миграции](http://marketplace.1c-bitrix.ru/solutions/sprint.migration/)
 - [SQL Adminer](https://marketplace.1c-bitrix.ru/solutions/uniplug.sqladminer/)
 - [Генератор прайс-листа](http://marketplace.1c-bitrix.ru/solutions/slobel.pricegeneration/)

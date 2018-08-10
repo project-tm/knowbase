@@ -8,6 +8,9 @@
 - [Добавление метки к файлу](#Добавление-метки-к-файлу)
 - [Позволяет добавлять правила валидации через атрибут data-validate \*](#Позволяет-добавлять-правила-валидации-через-атрибут-data-validate-)
 
+## Bitrix модули(Bitrix-модули)
+- [Установка-удаление модуля](Установка-удаление-модуля)
+
 ## [Bitrix](#bitrix-1)
 - [Своя пагинация в админке CAdminResult](Своя-пагинация-в-админке-cadminresult)
 - [Получить данные фото](#Получить-данные-фото)
@@ -76,6 +79,33 @@ function addValidateRules() {
         }
         $(input).rules('add', rules);
     });
+}
+```
+
+## Bitrix модули
+
+## Установка-удаление модуля
+```php
+$id = 'megafon.tagcache';
+if (!Loader::includeModule($id) and $Module = CModule::CreateModuleObject($id)) {
+    if ($Module->DoInstall() === false) {
+        global $APPLICATION, $errorMessage;
+        $errorMessage = GetMessage("MOD_INSTALL_ERROR", ["#CODE#" => $id]);
+        if ($e = $APPLICATION->GetException()) {
+            $errorMessageFull = $e->GetString();
+        }
+    }
+}
+
+$id = 'megafon.tagcache';
+if (Loader::includeModule($id) and $Module = CModule::CreateModuleObject($id)) {
+    if ($Module->DoUninstall() === false) {
+        global $APPLICATION, $errorMessage;
+        $errorMessage = GetMessage("MOD_INSTALL_ERROR", ["#CODE#" => $id]);
+        if ($e = $APPLICATION->GetException()) {
+            $errorMessageFull = $e->GetString();
+        }
+    }
 }
 ```
 

@@ -11,8 +11,10 @@
 ## [Bitrix модули](#bitrix-модули-1)
 - [Установка-удаление модуля](#Установка-удаление-модуля)
 
-## [Bitrix](#bitrix-1)
+## [Bitrix админка](#bitrix-админка-1)
 - [Своя пагинация в админке CAdminResult](#Своя-пагинация-в-админке-cadminresult)
+
+## [Bitrix](#bitrix-1)
 - [Получить данные фото](#Получить-данные-фото)
 - [Форматирование даты](#Форматирование-даты)
 - [Пользовательские свойства](#Пользовательские-свойства)
@@ -109,7 +111,7 @@ if (Loader::includeModule($id) and $Module = CModule::CreateModuleObject($id)) {
 }
 ```
 
-# Bitrix
+# Bitrix админка
 
 ### Своя пагинация в админке CAdminResult
 ```php
@@ -147,6 +149,8 @@ $smsData->NavPageCount = ceil($smsCount/$smsData1->GetNavSize());
 $smsData->NavRecordCount = $smsData->nSelectedCount = $smsCount;
 $smsData->NavPageNomer = $smsData->PAGEN;
 ```
+
+# Bitrix
 
 ### Получить данные фото
 ```php

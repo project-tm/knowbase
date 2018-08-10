@@ -113,7 +113,7 @@ if (Loader::includeModule($id) and $Module = CModule::CreateModuleObject($id)) {
 
 ### Своя пагинация в админке CAdminResult
 ```php
-$smsCount = \Megafon\Sms\SmsTable::getList(
+$smsCount = SmsTable::getList(
     [
         'select' => [
             'COUNT'
@@ -132,7 +132,7 @@ $smsData1->NavStart();
 $NavNum--;
 
 // выберем список рассылок
-$smsData = \Megafon\Sms\SmsTable::getList(
+$smsData = SmsTable::getList(
     [
         'filter' => $arFilter,
         'limit'  => $smsData1->GetNavSize(),

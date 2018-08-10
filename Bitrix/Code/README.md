@@ -9,6 +9,7 @@
 - [Позволяет добавлять правила валидации через атрибут data-validate \*](#Позволяет-добавлять-правила-валидации-через-атрибут-data-validate-)
 
 ## [Bitrix](#bitrix-1)
+- [Своя пагинация в админке CAdminResult](своя-пагинация-в-админке-cadminresult)
 - [Получить данные фото](#Получить-данные-фото)
 - [Форматирование даты](#Форматирование-даты)
 - [Пользовательские свойства](#Пользовательские-свойства)
@@ -79,6 +80,43 @@ function addValidateRules() {
 ```
 
 # Bitrix
+
+### Своя пагинация в админке CAdminResult
+```php
+$smsCount = \Megafon\Sms\SmsTable::getList(
+    [
+        'select' => [
+            'COUNT'
+        ],
+        'filter' => $arFilter,
+        'runtime' => [
+            'COUNT' => [
+                'data_type' => 'integer',
+                'expression' => ['count(ID)']
+            ]
+        ]
+    ]
+)->Fetch()['COUNT'];
+$smsData1 = new CAdminResult();
+$smsData1->NavStart();
+$NavNum--;
+
+// выберем список рассылок
+$smsData = \Megafon\Sms\SmsTable::getList(
+    [
+        'filter' => $arFilter,
+        'limit'  => $smsData1->GetNavSize(),
+        'offset' => ($smsData1->PAGEN - 1) * $smsData1->GetNavSize(),
+    ]
+);
+// преобразуем список в экземпляр класса CAdminResult
+$smsData = new CAdminResult($smsData, $sTableID);
+// аналогично CDBResult инициализируем постраничную навигацию.
+$smsData->NavStart();
+$smsData->NavPageCount = ceil($smsCount/$smsData1->GetNavSize());
+$smsData->NavRecordCount = $smsData->nSelectedCount = $smsCount;
+$smsData->NavPageNomer = $smsData->PAGEN;
+```
 
 ### Получить данные фото
 ```php

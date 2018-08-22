@@ -30,7 +30,7 @@
 - [Настройки для проекта](https://marketplace.1c-bitrix.ru/solutions/askaron.settings/)
 
 ## Оптимизация изображений
-- [Модуль сжатия изображений, автоматическая оптимизации картинок под Google PageSpeed Insights](http://marketplace.1c-bitrix.ru/solutions/artrix.imageoptimizer/?sphrase_id=70267817#tab-about-link)
+- [Оптимизация картинок - автоматически и без сторонних сервисов](http://marketplace.1c-bitrix.ru/solutions/dev2fun.imagecompress/)
 
 ## Полезное
 - [Свободное место](http://marketplace.1c-bitrix.ru/solutions/delement.freespace/)

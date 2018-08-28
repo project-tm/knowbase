@@ -20,17 +20,14 @@ class Query extends Main\Entity\Query
 
     public function getFrom()
     {
-        $connection = $this->init_entity->getConnection();
-        $helper = $connection->getSqlHelper();
-        $sqlFrom = $this->quoteTableSource($this->init_entity->getDBTableName());
-        return $sqlFrom . ' ' . $helper->quote($this->getInitAlias());
+        return $this->quoteTableSource($this->init_entity->getDBTableName());
     }
 
     public function getWhere()
     {
-
         $this->buildQuery();
-        return parent::buildWhere();
+        $helper = static::getEntity()->getConnection()->getSqlHelper();
+        return str_replace($helper->quote($this->getInitAlias()) . '.', '', parent::buildWhere());
     }
 }
 ```

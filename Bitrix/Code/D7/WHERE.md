@@ -6,9 +6,8 @@ $query->setFilter([
     'BLOCK_ID' => $ID,
     $code      => $delete,
 ]);
-$entity = static::getEntity();
-$sql = "DELETE FROM ".$entity->getDBTableName()." WHERE ".$query->getWhere();
-$entity->getConnection()->queryExecute($sql);
+$sql = "DELETE FROM " . $query->getFrom() . " WHERE " . $query->getWhere();
+static::getEntity()->getConnection()->queryExecute($sql);
 ```
 
 ```php
@@ -18,8 +17,18 @@ use Bitrix\Main;
 
 class Query extends Main\Entity\Query
 {
+
+    public function getFrom()
+    {
+        $connection = $this->init_entity->getConnection();
+        $helper = $connection->getSqlHelper();
+        $sqlFrom = $this->quoteTableSource($this->init_entity->getDBTableName());
+        return $sqlFrom . ' ' . $helper->quote($this->getInitAlias());
+    }
+
     public function getWhere()
     {
+
         $this->buildQuery();
         return parent::buildWhere();
     }

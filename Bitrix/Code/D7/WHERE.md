@@ -1,13 +1,10 @@
 # Генерация where запроса для таблицы D7
 
 ```php
-$query = $table::query();
-$query->setFilter([
+$table::query()->deleteByWhere([
     'BLOCK_ID' => $ID,
     $code      => $delete,
 ]);
-$sql = "DELETE FROM " . $query->getFrom() . " WHERE " . $query->getWhere();
-static::getEntity()->getConnection()->queryExecute($sql);
 ```
 
 ```php
@@ -18,16 +15,17 @@ use Bitrix\Main;
 class Query extends Main\Entity\Query
 {
 
-    public function getFrom()
+    public function deleteByWhere($where)
     {
-        return $this->quoteTableSource($this->init_entity->getDBTableName());
-    }
-
-    public function getWhere()
-    {
-        $this->buildQuery();
         $helper = static::getEntity()->getConnection()->getSqlHelper();
-        return str_replace($helper->quote($this->getInitAlias()) . '.', '', parent::buildWhere());
+        $this->is_executing = true;
+        $this->setFilter($where);
+        $this->buildQuery();
+        $query = "DELETE FROM " . $this->quoteTableSource($this->init_entity->getDBTableName()) . " WHERE " . str_replace($helper->quote($this->getInitAlias()) . '.',
+                '', parent::buildWhere());
+        $result = $this->query($query);
+        $this->is_executing = false;
+        return $result;
     }
 }
 ```

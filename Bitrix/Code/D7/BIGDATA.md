@@ -89,12 +89,21 @@ trait BigData
     public static function add(array $data)
     {
         if (self::$isBigData) {
-            self::$arInsert[] = $data;
-            $result = new AddResult();
-            return $result;
+            return self::addBigData($data);
         } else {
             return parent::add($data);
         }
+    }
+
+    /**
+     * @param array $data
+     *
+     * @return AddResult
+     */
+    public static function addBigData(array $data)
+    {
+        self::$arInsert[] = $data;
+        return new AddResult();
     }
 
 }

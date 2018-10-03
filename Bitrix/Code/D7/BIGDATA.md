@@ -11,14 +11,12 @@ RegionTable::compileBigData();
 ```php
 class RegionTable extends DataManager
 {
-    use BigData;
+    use TraitList\BigData;
 }    
 ```
 
 ```php
-<?php
-
-namespace Megafon\Editor\TraitList;
+namespace TraitList;
 
 use Bitrix\Main\Entity\AddResult;
 use Bitrix\Main\Entity\ScalarField;
@@ -27,7 +25,7 @@ trait BigData
 {
 
     static private $isBigData = false;
-    static private $arData = [];
+    static private $arInsert = [];
 
     /**
      *
@@ -43,16 +41,18 @@ trait BigData
     public static function compileBigData()
     {
         self::$isBigData = false;
-        if (empty(self::$arData)) {
+        if (empty(self::$arInsert)) {
             return;
         }
         $entity = static::getEntity();
         foreach ($entity->getFields() as $field) {
-            if ($field instanceof ScalarField && !array_key_exists($field->getName(), $data)) {
+            if ($field instanceof ScalarField) {
                 $defaultValue = $field->getDefaultValue();
                 if ($defaultValue !== null) {
-                    foreach (self::$arData as &$arItem) {
-                        $arItem[$field->getName()] = $field->getDefaultValue();
+                    foreach (self::$arInsert as &$arItem) {
+                        if(!array_key_exists($field->getName(), $arItem)) {
+                            $arItem[$field->getName()] = $field->getDefaultValue();
+                        }
                     }
                 }
             }
@@ -62,7 +62,7 @@ trait BigData
         $tableName = $entity->getDBTableName();
 
         $sql = '';
-        foreach (self::$arData as &$arItem) {
+        foreach (self::$arInsert as &$arItem) {
             foreach ($arItem as $fieldName => $value) {
                 $field = static::getEntity()->getField($fieldName);
                 $arItem[$fieldName] = $field->modifyValueBeforeSave($value, $arItem);
@@ -78,7 +78,7 @@ trait BigData
             }
         }
         $connection->queryExecute($sql);
-        self::$arData = [];
+        self::$arInsert = [];
     }
 
     /**
@@ -89,7 +89,7 @@ trait BigData
     public static function add(array $data)
     {
         if (self::$isBigData) {
-            self::$arData[] = $data;
+            self::$arInsert[] = $data;
             $result = new AddResult();
             return $result;
         } else {

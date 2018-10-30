@@ -3,7 +3,7 @@
 - [ORM](https://github.com/medveddev/bxorm/)
 - [Выражения в ORM](https://dev.1c-bitrix.ru/community/blogs/orm/25615.php)
 - [Выражения в select](#Выражения-в-select)
-- [Генерация where запроса для таблицы D7](WHERE.md)
+- [Генерация where запроса, и исправление GROUP BY для таблицы D7](WHERE.md)
 - [Множествееное добавление через один запрос](BIGDATA.md)
 - [Подсчет количества уникальных значений в столбце таблицы](#подсчет-количества-уникальных-значений-в-столбце-таблицы)
 - [D7 getList в mysql](#d7-getlist-в-mysql)

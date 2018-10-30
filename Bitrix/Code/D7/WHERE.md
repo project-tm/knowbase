@@ -27,6 +27,18 @@ class Query extends Main\Entity\Query
         $this->is_executing = false;
         return $result;
     }
+    
+    protected function buildGroup()
+    {
+        foreach ($this->global_chains as $key=>$chain) {
+            $alias = $chain->getAlias();
+            if(!in_array($alias, $this->group)) {
+                unset($this->global_chains[$alias]);
+            }
+        }
+        return parent::buildGroup();
+    }
+
 }
 ```
 

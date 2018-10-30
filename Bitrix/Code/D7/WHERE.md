@@ -42,7 +42,7 @@ class Query extends Main\Entity\Query
 ```
 
 ```php
-namespace Project\Editor\Model\Block;
+namespace Megafon\Editor\Model\Block;
 
 use Bitrix\Main\Entity;
 use Bitrix\Main\Entity\DataManager;

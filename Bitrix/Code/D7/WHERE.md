@@ -31,9 +31,8 @@ class Query extends Main\Entity\Query
     protected function buildGroup()
     {
         foreach ($this->global_chains as $key=>$chain) {
-            $alias = $chain->getAlias();
-            if(!in_array($alias, $this->group)) {
-                unset($this->global_chains[$alias]);
+            if(!in_array($chain->getAlias(), $this->group)) {
+                unset($this->global_chains[$key]);
             }
         }
         return parent::buildGroup();

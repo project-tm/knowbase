@@ -6,6 +6,7 @@
 - [Онлайн Markdown редактор](http://dillinger.io/)
 - [JSON Editor Online](http://jsoneditoronline.org/)
 - [Облачный IDE](https://c9.io/)
+- [Плагины для браузера](#Плагины-для-браузера)
 
 ## Графические редакторы
 - [Pixlr](https://pixlr.com/editor/)
@@ -56,4 +57,10 @@
 ## Прочие инструменты
 - [Инструменты для веб анализа, онлайн калькуляторы, конвертеры, генераторы](https://ciox.ru/)
 - [Валидатор микроразметки](https://webmaster.yandex.ru/tools/microtest/)
+- [Просмотр json данных](http://jsonviewer.stack.hu/)
+- [Онлайн калькулятор unix time stamp](http://www.bl2.ru/programing/timestamp.html)
+- [Для хранения паролей](https://www.enpass.io/)
 
+## Плагины для браузера
+- [смена кодировки](https://chrome.google.com/webstore/detail/bpojelgakakmcfmjfilgdlmhefphglae)
+- [Работ с soap-сервером](https://chrome.google.com/webstore/detail/oebpmncolmhiapingjaagmapififiakb)

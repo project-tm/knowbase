@@ -3,6 +3,7 @@
 
 ### Полезные запросы
 - `grep -r -n --exclude-dir={upload,xhprof,managed_cache,cache,test,webstat,backup,images,import,old,html_pages} '' ./` - поиск слова в файлах
+- `ps -ef | grep 'test' | grep -v grep | awk '{print $2}' | xargs -r kill -9` - удаление процесса
 - `grep -lr 'emailRinger' *`
 - `find . -mindepth 1 -newermt '2016-10-04 16:00' -newermt '2016-10-04 16:50' -ls` - поиск по времени изменения
 - `find ~ -name "*.php" -type f -mtime -4` - поиск последних измененных файлов

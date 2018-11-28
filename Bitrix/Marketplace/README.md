@@ -30,10 +30,9 @@
 - [Настройки для проекта](https://marketplace.1c-bitrix.ru/solutions/askaron.settings/)
 
 ## Оптимизация изображений
-- [Модуль сжатия изображений, автоматическая оптимизации картинок под Google PageSpeed Insights](http://marketplace.1c-bitrix.ru/solutions/artrix.imageoptimizer/?sphrase_id=70267817#tab-about-link)
+- [Оптимизация картинок - автоматически и без сторонних сервисов](http://marketplace.1c-bitrix.ru/solutions/dev2fun.imagecompress/)
 
 ## Полезное
-- [Свободное место](http://marketplace.1c-bitrix.ru/solutions/delement.freespace/)
 - [Свободное место](http://marketplace.1c-bitrix.ru/solutions/delement.freespace/)
 - [Просмотри системы контроля версий через битрикс](http://marketplace.1c-bitrix.ru/solutions/karudo.vcs/)
 - [CDN](http://marketplace.1c-bitrix.ru/solutions/skypark.cdn/)
@@ -42,6 +41,7 @@
 - [Настраиваемый Ajax Preloader](http://marketplace.1c-bitrix.ru/solutions/sotbit.preloader/)
 - [Дополнительные настройки](http://marketplace.1c-bitrix.ru/solutions/grain.customsettings/)
 - [Проверка Google PageSpeed Insights](http://marketplace.1c-bitrix.ru/solutions/step2use.pagespeed/)
+- [Форматирование даты и времени (Вчера 20:47, Послезавтра 20:54)](http://marketplace.1c-bitrix.ru/solutions/grain.datetools/)
 
 ## Безопасность
 - [Поиск троянов](https://marketplace.1c-bitrix.ru/solutions/bitrix.xscan/)
@@ -49,6 +49,7 @@
 - [Антиспам без CAPTCHA](https://marketplace.1c-bitrix.ru/solutions/cleantalk.antispam/)
 
 ## Инструменты
+- [Заполнения инфоблока тестовыми данными](http://marketplace.1c-bitrix.ru/solutions/grain.flood/)
 - [Миграции](http://marketplace.1c-bitrix.ru/solutions/sprint.migration/)
 - [SQL Adminer](https://marketplace.1c-bitrix.ru/solutions/uniplug.sqladminer/)
 - [Генератор прайс-листа](http://marketplace.1c-bitrix.ru/solutions/slobel.pricegeneration/)

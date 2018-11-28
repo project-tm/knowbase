@@ -1,5 +1,8 @@
 # Куски кода
 
+## [Bitrix запросы](#bitrix-запросы-1)
+- [Получеам количество элементов инфоблока](#Получеам-количество-элементов-инфоблока)
+
 ## [Bitrix шаблоны](#bitrix-шаблоны-1)
 - [Отложенные переменные в шаблоне](#Отложенные-переменные-в-шаблоне)
 - [Добавление стилей, js прямо в шаблоне](#Добавление-стилей-js-прямо-в-шаблоне)
@@ -7,6 +10,12 @@
 - [Статические блоки](#Статические-блоки)
 - [Добавление метки к файлу](#Добавление-метки-к-файлу)
 - [Позволяет добавлять правила валидации через атрибут data-validate \*](#Позволяет-добавлять-правила-валидации-через-атрибут-data-validate-)
+
+## [Bitrix модули](#bitrix-модули-1)
+- [Установка-удаление модуля](#Установка-удаление-модуля)
+
+## [Bitrix админка](#bitrix-админка-1)
+- [Своя пагинация в админке CAdminResult](#Своя-пагинация-в-админке-cadminresult)
 
 ## [Bitrix](#bitrix-1)
 - [Получить данные фото](#Получить-данные-фото)
@@ -17,6 +26,15 @@
 - [Отладка события в init.php](#Отладка-события-в-initphp)
 
 ## [Bitrix магазин](#bitrix-магазин)
+
+# Bitrix запросы
+
+## Получеам количество элементов инфоблока
+```php
+$iblock_id = 3; 
+$arFilter = Array("IBLOCK_ID"=>$iblock_id, "ACTIVE"=>"Y");
+$res_count = CIBlockElement::GetList(Array(), $arFilter, Array(), false, Array());
+```
 
 # Bitrix шаблоны
 
@@ -76,6 +94,72 @@ function addValidateRules() {
         $(input).rules('add', rules);
     });
 }
+```
+
+## Bitrix модули
+
+## Установка-удаление модуля
+```php
+$id = 'megafon.tagcache';
+if (!Loader::includeModule($id) and $Module = CModule::CreateModuleObject($id)) {
+    if ($Module->DoInstall() === false) {
+        global $APPLICATION, $errorMessage;
+        $errorMessage = GetMessage("MOD_INSTALL_ERROR", ["#CODE#" => $id]);
+        if ($e = $APPLICATION->GetException()) {
+            $errorMessageFull = $e->GetString();
+        }
+    }
+}
+
+$id = 'megafon.tagcache';
+if (Loader::includeModule($id) and $Module = CModule::CreateModuleObject($id)) {
+    if ($Module->DoUninstall() === false) {
+        global $APPLICATION, $errorMessage;
+        $errorMessage = GetMessage("MOD_INSTALL_ERROR", ["#CODE#" => $id]);
+        if ($e = $APPLICATION->GetException()) {
+            $errorMessageFull = $e->GetString();
+        }
+    }
+}
+```
+
+# Bitrix админка
+
+### Своя пагинация в админке CAdminResult
+```php
+$smsCount = SmsTable::getList(
+    [
+        'select' => [
+            'COUNT'
+        ],
+        'filter' => $arFilter,
+        'runtime' => [
+            'COUNT' => [
+                'data_type' => 'integer',
+                'expression' => ['count(ID)']
+            ]
+        ]
+    ]
+)->Fetch()['COUNT'];
+$smsData1 = new CAdminResult();
+$smsData1->NavStart();
+$NavNum--;
+
+// выберем список рассылок
+$smsData = SmsTable::getList(
+    [
+        'filter' => $arFilter,
+        'limit'  => $smsData1->GetNavSize(),
+        'offset' => ($smsData1->PAGEN - 1) * $smsData1->GetNavSize(),
+    ]
+);
+// преобразуем список в экземпляр класса CAdminResult
+$smsData = new CAdminResult($smsData, $sTableID);
+// аналогично CDBResult инициализируем постраничную навигацию.
+$smsData->NavStart();
+$smsData->NavPageCount = ceil($smsCount/$smsData1->GetNavSize());
+$smsData->NavRecordCount = $smsData->nSelectedCount = $smsCount;
+$smsData->NavPageNomer = $smsData->PAGEN;
 ```
 
 # Bitrix

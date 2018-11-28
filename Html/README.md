@@ -3,11 +3,15 @@
 
 # Статьи
 - [Nth-child и nth-of-type - от полосатых таблиц до целых разноцветных дизайнов](http://css.yoksel.ru/nth-child/)
+- [HTML вёрстка писем — полная инструкция](https://emailsoldiers.ru/blog/html-guideline)
+- [Основы верстки HTML-писем](https://netology.ru/blog/verstka-mail)
+- [Верстка email рассылок от А до Я для чайников](https://habr.com/post/252279/)
 
 # Сервисы
 - Генератор фавиконок для всех платформ и устройств - http://realfavicongenerator.net/
 - Сервис по тестированию регулярных выражений - https://regex101.com/
 - Оптимизация изображений - https://tinypng.com/
+- Сервис для тестирования email-рассылки - http://makemail.ru/
 
 # Ховеры
 - эффеты ховеров - http://gudh.github.io/ihover/dist/index.html
